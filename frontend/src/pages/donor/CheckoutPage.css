@@ -1,0 +1,10 @@
+.checkout h1 {
+  margin-bottom: var(--space-xl);
+}
+
+.checkout__actions {
+  display: flex;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+  flex-wrap: wrap;
+}

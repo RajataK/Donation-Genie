@@ -1,0 +1,17 @@
+.impact-story {
+  background: linear-gradient(135deg, rgba(45, 95, 76, 0.06), rgba(232, 149, 107, 0.06));
+  border-radius: var(--border-radius);
+  padding: var(--space-xl);
+  margin-block: var(--space-xl);
+}
+
+.impact-story__heading {
+  font-size: var(--font-size-h3);
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.impact-story__text {
+  color: var(--color-text);
+  line-height: var(--line-height);
+}

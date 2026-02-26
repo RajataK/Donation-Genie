@@ -1,0 +1,31 @@
+.wish-list-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.wish-list-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+}
+
+.wish-list-card__name {
+  font-size: var(--font-size-body);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-semibold);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wish-list-card__description {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+}
+
+.wish-list-card__price {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-primary);
+}

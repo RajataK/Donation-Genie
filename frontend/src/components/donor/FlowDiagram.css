@@ -1,0 +1,44 @@
+.flow-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--space-xl);
+  flex-wrap: wrap;
+}
+
+.flow-diagram__step {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.flow-diagram__icon {
+  font-size: 1.5rem;
+}
+
+.flow-diagram__label {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+}
+
+.flow-diagram__arrow {
+  color: var(--color-text-light);
+  font-size: 1.25rem;
+  margin-inline: var(--space-xs);
+}
+
+@media (max-width: 767px) {
+  .flow-diagram {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .flow-diagram__arrow {
+    transform: rotate(90deg);
+  }
+}

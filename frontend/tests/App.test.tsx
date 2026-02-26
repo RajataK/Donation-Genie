@@ -5,7 +5,7 @@ describe("App", () => {
   it("renders without crashing", async () => {
     render(<App />);
     await waitFor(() => {
-      expect(screen.getByText(/donation genie/i)).toBeInTheDocument();
+      expect(screen.getByRole("heading", { name: /donation genie/i })).toBeInTheDocument();
     });
   });
 });

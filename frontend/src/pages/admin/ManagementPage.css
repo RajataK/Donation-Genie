@@ -1,0 +1,9 @@
+.management h1 {
+  margin-bottom: var(--space-xl);
+}
+
+.management__actions {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}

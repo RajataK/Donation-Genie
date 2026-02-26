@@ -1,0 +1,11 @@
+.ai-summary {
+  background: linear-gradient(135deg, rgba(45, 95, 76, 0.08), rgba(232, 149, 107, 0.08));
+  border-radius: var(--border-radius);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+.ai-summary__text {
+  color: var(--color-text);
+  line-height: var(--line-height);
+}
