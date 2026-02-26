@@ -45,6 +45,9 @@ htmlcov/
 .pytest_cache/
 coverage/
 
+# Claude Code
+.claude/
+
 # Misc
 *.log
 *.tmp
