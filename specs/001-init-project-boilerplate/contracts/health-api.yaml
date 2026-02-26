@@ -1,0 +1,77 @@
+openapi: "3.1.0"
+info:
+  title: Donation Genie API — Health
+  version: "1.0.0"
+  description: >
+    Health-check endpoint for the Donation Genie backend.
+    This is the initial contract shipped with the boilerplate.
+
+servers:
+  - url: http://localhost/api
+    description: Local development (via Nginx reverse proxy)
+  - url: http://localhost:8000/api
+    description: Direct Django access (no proxy)
+
+paths:
+  /health/:
+    get:
+      operationId: getHealth
+      summary: Health check
+      description: >
+        Returns the current health status of the backend service,
+        including database connectivity.
+      tags:
+        - health
+      responses:
+        "200":
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+              example:
+                status: healthy
+                database: connected
+                version: "1.0.0"
+                timestamp: "2026-02-26T12:00:00Z"
+        "503":
+          description: Service is unhealthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+              example:
+                status: unhealthy
+                database: disconnected
+                version: "1.0.0"
+                timestamp: "2026-02-26T12:00:00Z"
+
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      required:
+        - status
+        - database
+        - version
+        - timestamp
+      properties:
+        status:
+          type: string
+          enum:
+            - healthy
+            - unhealthy
+          description: Overall service health
+        database:
+          type: string
+          enum:
+            - connected
+            - disconnected
+          description: Database connectivity status
+        version:
+          type: string
+          description: Application version identifier
+        timestamp:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp of the health check
