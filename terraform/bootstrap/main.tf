@@ -9,13 +9,13 @@ terraform {
   }
 
   # Uncomment after first apply, then run: terraform init -migrate-state -force-copy
-  backend "s3" {
-    bucket         = "donation-genie-tf-state"
-    key            = "bootstrap/terraform.tfstate"
-    region         = "eu-west-2"
-    dynamodb_table = "donation-genie-terraform-locks"
-    encrypt        = true
-    }
+  # backend "s3" {
+  #   bucket         = "donation-genie-tf-state"
+  #   key            = "bootstrap/terraform.tfstate"
+  #   region         = "eu-west-2"
+  #   dynamodb_table = "donation-genie-terraform-locks"
+  #   encrypt        = true
+  #   }
 }
 
 provider "aws" {
