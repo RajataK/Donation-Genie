@@ -51,6 +51,13 @@ blob-report/
 # Claude Code
 .claude/
 
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
 # Misc
 *.log
 *.tmp
