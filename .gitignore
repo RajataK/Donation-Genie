@@ -18,6 +18,7 @@ yarn-error.log*
 
 # Build output
 frontend/dist/
+*.tsbuildinfo
 backend/staticfiles/
 
 # Environment
