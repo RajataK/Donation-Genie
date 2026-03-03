@@ -1086,13 +1086,17 @@ async function getData() {
     const sessionResponse = await getSession(cheapestProductIdQuantityPair);
 
     console.log("writing results");
-    fs.writeFileSync("results/recipes.json", JSON.stringify(recipesResponse));
-    fs.writeFileSync("results/products.json", JSON.stringify(products));
+    if (!fs.existsSync("results")) {
+      fs.mkdirSync("results", { recursive: true });
+    }
+
+    fs.writeFileSync("results/recipes.json", JSON.stringify(recipesResponse, null, 2));
+    fs.writeFileSync("results/products.json", JSON.stringify(products, null, 2));
     fs.writeFileSync(
       "results/cheapestProducts.json",
-      JSON.stringify(cheapestProductList)
+      JSON.stringify(cheapestProductList, null, 2)
     );
-    fs.writeFileSync("results/session.json", JSON.stringify(sessionResponse));
+    fs.writeFileSync("results/session.json", JSON.stringify(sessionResponse, null, 2));
     console.log("result written!");
   } catch (err) {
     console.error(err);
@@ -1165,11 +1169,11 @@ const getCheapestProductPerCategory = (products) => {
 
       return cheapest; // could be null if item.products empty
     })
+    .filter(Boolean)
     .map((product) => {
       console.log({ product });
       return { ...product, num_units_to_buy: product.num_units_to_buy ?? 1 };
-    })
-    .filter(Boolean); // remove nulls
+    });
 };
 
 const getProductIdPurchaseQuantityPair = (products) => {
