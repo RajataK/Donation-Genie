@@ -18,6 +18,7 @@ yarn-error.log*
 
 # Build output
 frontend/dist/
+*.tsbuildinfo
 backend/staticfiles/
 
 # Environment
@@ -50,6 +51,13 @@ blob-report/
 
 # Claude Code
 .claude/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
 
 # Misc
 *.log

@@ -150,6 +150,78 @@ DJANGO_ENV=production
 DEBUG=False
 ```
 
+## AWS Deployment
+
+### Prerequisites
+
+- [AWS CLI](https://aws.amazon.com/cli/) configured with valid credentials
+- [Terraform](https://developer.hashicorp.com/terraform/install) >= 1.9
+- [Docker](https://docs.docker.com/get-docker/) running locally
+
+### First-Time Setup
+
+```bash
+# 1. Create Terraform state backend (S3 bucket + DynamoDB lock table)
+./scripts/bootstrap.sh
+
+# 2. Initialize Terraform for the dev environment
+./scripts/deploy-init.sh
+
+# 3. Preview infrastructure changes
+./scripts/deploy-plan.sh
+
+# 4. Deploy infrastructure, build frontend, sync to S3, and invalidate CloudFront cache
+./scripts/deploy-apply.sh
+```
+
+### Build and Push Backend Image
+
+```bash
+# Push with a specific tag
+./scripts/build-and-push.sh latest
+
+# Push with the current git commit SHA (default)
+./scripts/build-and-push.sh
+
+# Force ECS to pull the updated image
+aws ecs update-service --cluster donation-genie-dev --service donation-genie-dev --force-new-deployment --region eu-west-2
+```
+
+### Deploy Frontend
+
+```bash
+cd frontend && npm run build
+aws s3 sync dist/ s3://$(cd ../terraform/environments/dev && terraform output -raw frontend_bucket_name) --delete
+aws cloudfront create-invalidation --distribution-id $(cd ../terraform/environments/dev && terraform output -raw distribution_id) --paths "/*" --region eu-west-2
+```
+
+### Useful Terraform Commands
+
+```bash
+cd terraform/environments/dev
+
+terraform output                          # Show all outputs (CloudFront URL, ECR repo, etc.)
+terraform output -raw cloudfront_url      # Get the application URL
+terraform output -raw ecr_repository_url  # Get the ECR repository URL
+terraform plan                            # Preview changes
+terraform apply                           # Apply changes
+```
+
+### Tear Down
+
+```bash
+# Destroy all cloud resources (preserves Terraform state backend)
+./scripts/deploy-destroy.sh
+```
+
+### Architecture
+
+```
+Browser → CloudFront (HTTPS) → ALB (HTTP) → ECS Fargate (Django/Gunicorn)
+                             → S3 (frontend static assets)
+                                ALB → ECS → RDS PostgreSQL
+```
+
 ## License
 
 Private
