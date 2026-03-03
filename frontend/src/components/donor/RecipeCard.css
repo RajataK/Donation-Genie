@@ -1,0 +1,56 @@
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  align-items: center;
+  text-align: center;
+}
+
+.recipe-card__icon {
+  font-size: 3rem;
+}
+
+.recipe-card__name {
+  font-size: var(--font-size-h3);
+}
+
+.recipe-card__meta {
+  display: flex;
+  gap: var(--space-md);
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+}
+
+.recipe-card__ingredients {
+  width: 100%;
+  text-align: left;
+}
+
+.recipe-card__ingredients ul {
+  list-style: none;
+  margin-top: var(--space-xs);
+}
+
+.recipe-card__ingredients li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-xs) 0;
+  font-size: var(--font-size-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.recipe-card__ingredients li.matched {
+  color: var(--color-primary);
+}
+
+.recipe-card__match {
+  color: var(--color-success);
+  font-weight: var(--font-weight-bold);
+}
+
+.recipe-card__cost {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}

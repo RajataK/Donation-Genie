@@ -1,0 +1,15 @@
+.search-results h1 {
+  margin-bottom: var(--space-lg);
+}
+
+.search-results__list {
+  display: grid;
+  gap: var(--space-lg);
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .search-results__list {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}

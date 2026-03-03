@@ -1,0 +1,65 @@
+.donation-basket {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-lg);
+}
+
+.donation-basket h2 {
+  font-size: var(--font-size-h3);
+  margin-bottom: var(--space-md);
+}
+
+.donation-basket__empty {
+  color: var(--color-text-light);
+  padding: var(--space-lg) 0;
+  text-align: center;
+}
+
+.donation-basket__list {
+  list-style: none;
+  margin-bottom: var(--space-md);
+}
+
+.donation-basket__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.donation-basket__item-name {
+  flex: 1;
+  font-weight: var(--font-weight-medium);
+}
+
+.donation-basket__item-qty {
+  color: var(--color-text-light);
+}
+
+.donation-basket__item-price {
+  font-weight: var(--font-weight-semibold);
+  min-width: 60px;
+  text-align: right;
+}
+
+.donation-basket__remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--touch-target-min);
+  min-height: var(--touch-target-min);
+  border: none;
+  background: transparent;
+  color: var(--color-urgent);
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+}
+
+.donation-basket__total {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  text-align: right;
+  margin-bottom: var(--space-md);
+}

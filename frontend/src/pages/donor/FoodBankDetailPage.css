@@ -1,0 +1,47 @@
+.food-bank-detail__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.food-bank-detail__meta {
+  color: var(--color-text-light);
+  margin-top: var(--space-xs);
+}
+
+.food-bank-detail h2 {
+  margin-bottom: var(--space-lg);
+}
+
+.food-bank-detail__wish-list {
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .food-bank-detail__wish-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .food-bank-detail__wish-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.food-bank-detail__options {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: 1fr;
+  margin-top: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .food-bank-detail__options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
