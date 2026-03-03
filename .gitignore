@@ -54,3 +54,8 @@ blob-report/
 # Misc
 *.log
 *.tmp
+
+# Pepesto Spike
+pepesto-spike/node_modules
+pepesto-spike/results/*.json
+pepesto-spike/.env
