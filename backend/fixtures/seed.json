@@ -1,1 +1,148 @@
-[]
+[
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "fields": {
+      "name": "Hackney Food Bank",
+      "postcode": "E8 3DF",
+      "latitude": "51.546600",
+      "longitude": "-0.075200",
+      "address": "23 Dalston Lane, London E8 3DF, United Kingdom",
+      "families_served_weekly": 250,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "fields": {
+      "food_bank": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "item_name": "Tinned Tomatoes",
+      "category": "tinned_goods",
+      "urgency": "urgent",
+      "quantity_needed": 50,
+      "unit": "tins",
+      "notes": "400g tins, any brand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+    "fields": {
+      "food_bank": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "item_name": "Rice",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 30,
+      "unit": "kg",
+      "notes": "1kg bags, long grain",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "d4e5f6a7-b8c9-0123-defa-234567890123",
+    "fields": {
+      "food_bank": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "item_name": "UHT Milk",
+      "category": "dairy",
+      "urgency": "optional",
+      "quantity_needed": 20,
+      "unit": "litres",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "e5f6a7b8-c9d0-1234-efab-345678901234",
+    "fields": {
+      "food_bank": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "recipe_name": "Spaghetti Bolognese",
+      "description": "A classic Italian pasta dish using tinned tomatoes and dried pasta",
+      "serves": 4,
+      "cook_time_minutes": 30,
+      "ingredients": [
+        {"name": "Pasta", "quantity": 500, "unit": "g", "wish_list_match": true},
+        {"name": "Tinned Tomatoes", "quantity": 2, "unit": "tins", "wish_list_match": true},
+        {"name": "Mixed Herbs", "quantity": 1, "unit": "tsp", "wish_list_match": false}
+      ],
+      "instructions": "1. Cook pasta according to packet instructions. 2. Heat tinned tomatoes in a pan. 3. Add mixed herbs and simmer for 10 minutes. 4. Drain pasta and combine with sauce.",
+      "emoji": "\ud83c\udf5d",
+      "estimated_cost": "4.35",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "f6a7b8c9-d0e1-2345-fabc-456789012345",
+    "fields": {
+      "food_bank": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "donation_type": "recipe_kit",
+      "recipe": "e5f6a7b8-c9d0-1234-efab-345678901234",
+      "items": [
+        {"name": "Pasta (500g)", "quantity": 1, "unit_price": 1.00},
+        {"name": "Tinned Tomatoes (400g)", "quantity": 2, "unit_price": 0.85}
+      ],
+      "total_cost": "2.70",
+      "postcode": "E1 6",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "a7b8c9d0-e1f2-3456-abcd-567890123456",
+    "fields": {
+      "donation": "f6a7b8c9-d0e1-2345-fabc-456789012345",
+      "supermarket": "Tesco",
+      "status": "delivered",
+      "tracking_number": "TRK-2026-001",
+      "estimated_delivery": "2026-03-07T10:00:00Z",
+      "actual_delivery": "2026-03-07T09:30:00Z",
+      "received_confirmed": true,
+      "notes": "Left at reception desk",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-07T09:30:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "b8c9d0e1-f2a3-4567-bcde-678901234567",
+    "fields": {
+      "food_bank": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "Please deliver between 9am and 5pm, Monday to Friday. Ring buzzer at back entrance.",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "c9d0e1f2-a3b4-5678-cdef-789012345678",
+    "fields": {
+      "food_bank": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "supermarket": "tesco",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "d0e1f2a3-b4c5-6789-defa-890123456789",
+    "fields": {
+      "food_bank": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "source": "qr_poster",
+      "scanned_at": "2026-03-05T14:30:00Z",
+      "converted_to_donation": true,
+      "donation": "f6a7b8c9-d0e1-2345-fabc-456789012345"
+    }
+  }
+]
