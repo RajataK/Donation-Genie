@@ -17,6 +17,7 @@
     "generate:api": "openapi-typescript http://localhost:8000/api/schema/ -o src/types/generated/api.d.ts"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.21",
     "@tanstack/react-router": "^1.95.0",
     "openapi-fetch": "^0.13.0",
     "react": "^19.0.0",
