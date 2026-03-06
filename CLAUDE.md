@@ -11,6 +11,7 @@ Auto-generated from all feature plans. Last updated: 2026-02-26
 - PostgreSQL 17 (local via Docker, production via AWS RDS) (004-init-postgres-schema)
 - Python 3.13 (backend), Django 5.2 LTS + Django `loaddata` management command (built-in) (005-expand-seed-fixtures)
 - PostgreSQL 17 (local via Docker Compose) (005-expand-seed-fixtures)
+- Python 3.13 (backend), TypeScript 5.7 (frontend) + Django 5.2 LTS, Django REST Framework 3.15, drf-spectacular (backend); React 19, Vite 6, TanStack Router 1.95, openapi-fetch 0.13, TanStack Query 5 (frontend — new dependency) (006-frontend-foodbank-fetch)
 
 - TypeScript 5.7 (frontend), Python 3.13 (backend - unchanged) + React 19, Vite 6, TanStack Router 1.95, openapi-fetch 0.13, @playwright/test 1.58, @axe-core/playwright 4.11, eslint-plugin-jsx-a11y 6.10 (002-frontend-ui-boilerplate)
 - N/A (placeholder data only; no backend changes) (002-frontend-ui-boilerplate)
@@ -35,9 +36,9 @@ cd src [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNOLO
 Python 3.13 (backend), TypeScript 5.x (frontend), Node.js 24 LTS (tooling): Follow standard conventions
 
 ## Recent Changes
+- 006-frontend-foodbank-fetch: Added Python 3.13 (backend), TypeScript 5.7 (frontend) + Django 5.2 LTS, Django REST Framework 3.15, drf-spectacular (backend); React 19, Vite 6, TanStack Router 1.95, openapi-fetch 0.13, TanStack Query 5 (frontend — new dependency)
 - 005-expand-seed-fixtures: Added Python 3.13 (backend), Django 5.2 LTS + Django `loaddata` management command (built-in)
 - 004-init-postgres-schema: Added Python 3.13 + Django 5.2 LTS, Django REST Framework 3.15, psycopg (PostgreSQL adapter)
-- 004-init-postgres-schema: Added Python 3.13 (backend) + Django 5.2 LTS, Django REST Framework 3.15, drf-spectacular, django-environ, psycopg
 
 
 
