@@ -1,1 +1,4517 @@
-[]
+[
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "ccf7ac6c-64ee-4c5c-93a3-b4e0b59ee2c8",
+    "fields": {
+      "name": "Whitechapel Food Bank",
+      "postcode": "E1 6AN",
+      "latitude": "51.5152",
+      "longitude": "-0.0722",
+      "address": "45 Commercial Street, Whitechapel, London E1 6AN",
+      "families_served_weekly": 203,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "040f3df4-db85-42bd-9f39-b4509dae96fc",
+    "fields": {
+      "name": "Southwark Community Pantry",
+      "postcode": "SE1 7PB",
+      "latitude": "51.5045",
+      "longitude": "-0.0865",
+      "address": "12 Southwark Bridge Road, London SE1 7PB",
+      "families_served_weekly": 453,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+    "fields": {
+      "name": "Holloway Food Hub",
+      "postcode": "N7 8JG",
+      "latitude": "51.5568",
+      "longitude": "-0.1159",
+      "address": "89 Holloway Road, London N7 8JG",
+      "families_served_weekly": 196,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "24f7f870-a69d-4ba9-99ca-a1d4577c44c9",
+    "fields": {
+      "name": "Brixton Community Food Bank",
+      "postcode": "SW9 7QD",
+      "latitude": "51.463",
+      "longitude": "-0.113",
+      "address": "34 Brixton Road, London SW9 7QD",
+      "families_served_weekly": 329,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "1839be64-06a4-41cb-b652-379480b330bb",
+    "fields": {
+      "name": "Stratford Food Store",
+      "postcode": "E15 1XE",
+      "latitude": "51.5389",
+      "longitude": "0.0035",
+      "address": "7 The Grove, Stratford, London E15 1XE",
+      "families_served_weekly": 155,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "0de83961-e82d-4f34-9b3c-9bb77577989e",
+    "fields": {
+      "name": "Northern Quarter Food Bank",
+      "postcode": "M4 5JD",
+      "latitude": "53.4851",
+      "longitude": "-2.2364",
+      "address": "22 Oldham Street, Manchester M4 5JD",
+      "families_served_weekly": 433,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+    "fields": {
+      "name": "Fallowfield Community Pantry",
+      "postcode": "M14 4PX",
+      "latitude": "53.4489",
+      "longitude": "-2.222",
+      "address": "58 Wilmslow Road, Fallowfield, Manchester M14 4PX",
+      "families_served_weekly": 42,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+    "fields": {
+      "name": "Digbeth Food Bank",
+      "postcode": "B5 4TD",
+      "latitude": "52.4741",
+      "longitude": "-1.894",
+      "address": "15 Digbeth, Birmingham B5 4TD",
+      "families_served_weekly": 393,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+    "fields": {
+      "name": "Lozells Community Pantry",
+      "postcode": "B19 1HL",
+      "latitude": "52.492",
+      "longitude": "-1.905",
+      "address": "3 Lozells Road, Birmingham B19 1HL",
+      "families_served_weekly": 255,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "642991b1-c2eb-46bb-8240-d1ca802ba7e4",
+    "fields": {
+      "name": "Leeds Food Bank",
+      "postcode": "LS1 4BR",
+      "latitude": "53.7967",
+      "longitude": "-1.5491",
+      "address": "28 Kirkgate, Leeds LS1 4BR",
+      "families_served_weekly": 294,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "846ea6b7-6484-4942-ae39-a2d3985f8948",
+    "fields": {
+      "name": "Liverpool Food Bank",
+      "postcode": "L1 1JD",
+      "latitude": "53.4041",
+      "longitude": "-2.981",
+      "address": "41 Bold Street, Liverpool L1 1JD",
+      "families_served_weekly": 83,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "70c136e2-a9c3-48f1-bb6e-85137ee1829a",
+    "fields": {
+      "name": "Bristol Food Bank",
+      "postcode": "BS1 3BN",
+      "latitude": "51.4545",
+      "longitude": "-2.5879",
+      "address": "19 Broadmead, Bristol BS1 3BN",
+      "families_served_weekly": 492,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "e1f914b1-56f5-4c0a-bd57-317be3fbd355",
+    "fields": {
+      "name": "Sheffield Food Bank",
+      "postcode": "S1 2HE",
+      "latitude": "53.3811",
+      "longitude": "-1.4701",
+      "address": "6 The Moor, Sheffield S1 2HE",
+      "families_served_weekly": 213,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+    "fields": {
+      "name": "Newcastle Food Bank",
+      "postcode": "NE1 4XF",
+      "latitude": "54.9714",
+      "longitude": "-1.6174",
+      "address": "52 Grainger Street, Newcastle NE1 4XF",
+      "families_served_weekly": 60,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "ef6e15de-47dc-4ca7-bb09-507f555a99dc",
+    "fields": {
+      "name": "Nottingham Food Bank",
+      "postcode": "NG1 7AT",
+      "latitude": "52.9548",
+      "longitude": "-1.1581",
+      "address": "14 Victoria Centre, Nottingham NG1 7AT",
+      "families_served_weekly": 302,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "6fa2245a-48da-438b-a886-739849a2247e",
+    "fields": {
+      "name": "Leicester Food Bank",
+      "postcode": "LE1 5PH",
+      "latitude": "52.6369",
+      "longitude": "-1.1398",
+      "address": "31 Church Gate, Leicester LE1 5PH",
+      "families_served_weekly": 170,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "d05ef4bd-c6ee-4f48-969c-077a2722dbc3",
+    "fields": {
+      "name": "Southampton Food Bank",
+      "postcode": "SO14 7DW",
+      "latitude": "50.9097",
+      "longitude": "-1.4044",
+      "address": "9 St Mary Street, Southampton SO14 7DW",
+      "families_served_weekly": 444,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "75290081-53bf-42a8-bffb-e017f8a04275",
+    "fields": {
+      "name": "Brighton Food Bank",
+      "postcode": "BN1 1EE",
+      "latitude": "50.8225",
+      "longitude": "-0.1372",
+      "address": "24 North Street, Brighton BN1 1EE",
+      "families_served_weekly": 341,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "ecb6f09b-0aa9-4b3c-9c3b-dd354097c660",
+    "fields": {
+      "name": "Oxford Food Bank",
+      "postcode": "OX1 1BX",
+      "latitude": "51.752",
+      "longitude": "-1.2577",
+      "address": "37 Cornmarket Street, Oxford OX1 1BX",
+      "families_served_weekly": 336,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "2daa743c-3676-4821-a790-e48bea1a68a9",
+    "fields": {
+      "name": "Cambridge Food Bank",
+      "postcode": "CB2 3QJ",
+      "latitude": "52.2053",
+      "longitude": "0.1218",
+      "address": "11 Regent Street, Cambridge CB2 3QJ",
+      "families_served_weekly": 473,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "137901df-71db-4f94-9686-327a0f6869cf",
+    "fields": {
+      "name": "Plymouth Food Bank",
+      "postcode": "PL1 1EA",
+      "latitude": "50.3755",
+      "longitude": "-4.1427",
+      "address": "5 New George Street, Plymouth PL1 1EA",
+      "families_served_weekly": 461,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "7a643e15-f0f5-4398-8d1f-060515eeedb9",
+    "fields": {
+      "name": "Norwich Food Bank",
+      "postcode": "NR2 1RH",
+      "latitude": "52.6286",
+      "longitude": "1.2928",
+      "address": "18 Gentleman's Walk, Norwich NR2 1RH",
+      "families_served_weekly": 205,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "3409ad04-1a6d-455c-9eba-4fb95d4fc95f",
+    "fields": {
+      "name": "York Food Bank",
+      "postcode": "YO1 7HH",
+      "latitude": "53.9599",
+      "longitude": "-1.0873",
+      "address": "42 Coney Street, York YO1 7HH",
+      "families_served_weekly": 315,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "b36e282e-5180-44fd-a6dd-71edd5aea892",
+    "fields": {
+      "name": "Bath Food Bank",
+      "postcode": "BA1 1SU",
+      "latitude": "51.3811",
+      "longitude": "-2.359",
+      "address": "8 Stall Street, Bath BA1 1SU",
+      "families_served_weekly": 118,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "749de34f-8a7f-4144-9065-d9aae572aa45",
+    "fields": {
+      "name": "Exeter Food Bank",
+      "postcode": "EX1 1EE",
+      "latitude": "50.7236",
+      "longitude": "-3.5275",
+      "address": "16 High Street, Exeter EX1 1EE",
+      "families_served_weekly": 380,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "952506a3-5465-4f50-a136-af34d561c73d",
+    "fields": {
+      "name": "Coventry Food Bank",
+      "postcode": "CV1 1FL",
+      "latitude": "52.4068",
+      "longitude": "-1.5197",
+      "address": "29 Broadgate, Coventry CV1 1FL",
+      "families_served_weekly": 55,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+    "fields": {
+      "name": "Reading Food Bank",
+      "postcode": "RG1 2HG",
+      "latitude": "51.4543",
+      "longitude": "-0.9781",
+      "address": "21 Broad Street, Reading RG1 2HG",
+      "families_served_weekly": 43,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "d11d778d-cbe9-486c-b4f3-f626638ff67a",
+    "fields": {
+      "name": "Canterbury Food Bank",
+      "postcode": "CT1 2HG",
+      "latitude": "51.2802",
+      "longitude": "1.0789",
+      "address": "13 St Peter's Street, Canterbury CT1 2HG",
+      "families_served_weekly": 358,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "cc32c145-9aeb-4417-95f7-7180b95fc41a",
+    "fields": {
+      "name": "Old Town Food Bank",
+      "postcode": "EH1 1SR",
+      "latitude": "55.9533",
+      "longitude": "-3.1883",
+      "address": "33 South Bridge, Edinburgh EH1 1SR",
+      "families_served_weekly": 136,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "a8a51433-cf01-4214-8f9d-797fd7f93758",
+    "fields": {
+      "name": "Leith Community Pantry",
+      "postcode": "EH6 6RA",
+      "latitude": "55.9747",
+      "longitude": "-3.1681",
+      "address": "71 Leith Walk, Edinburgh EH6 6RA",
+      "families_served_weekly": 415,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "f9fb805b-1db2-4cc5-8bb9-4ea47f07e79f",
+    "fields": {
+      "name": "Glasgow City Centre Food Bank",
+      "postcode": "G1 3SL",
+      "latitude": "55.858",
+      "longitude": "-4.259",
+      "address": "55 Argyle Street, Glasgow G1 3SL",
+      "families_served_weekly": 168,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "6f9f4750-e070-40ab-ba9f-d74d4605b7ff",
+    "fields": {
+      "name": "Govanhill Community Pantry",
+      "postcode": "G42 8PH",
+      "latitude": "55.8378",
+      "longitude": "-4.2681",
+      "address": "102 Victoria Road, Glasgow G42 8PH",
+      "families_served_weekly": 60,
+      "urgency_level": "normal",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "426de5cc-c03c-4891-9832-d47efbf22f39",
+    "fields": {
+      "name": "Aberdeen Food Bank",
+      "postcode": "AB25 1BJ",
+      "latitude": "57.1497",
+      "longitude": "-2.0943",
+      "address": "47 George Street, Aberdeen AB25 1BJ",
+      "families_served_weekly": 457,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "76c3ba48-b1c3-4ed3-9087-e0b18ff5851a",
+    "fields": {
+      "name": "Cardiff City Centre Food Bank",
+      "postcode": "CF10 1GL",
+      "latitude": "51.4816",
+      "longitude": "-3.1791",
+      "address": "26 Queen Street, Cardiff CF10 1GL",
+      "families_served_weekly": 139,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "43aa8aff-fc20-4a05-b161-b3a035c346a6",
+    "fields": {
+      "name": "Whitchurch Community Pantry",
+      "postcode": "CF14 3NR",
+      "latitude": "51.5074",
+      "longitude": "-3.1959",
+      "address": "63 Whitchurch Road, Cardiff CF14 3NR",
+      "families_served_weekly": 463,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "df462ea3-2970-4440-a07f-49e18fdd6779",
+    "fields": {
+      "name": "Swansea Food Bank",
+      "postcode": "SA1 3QQ",
+      "latitude": "51.6214",
+      "longitude": "-3.9436",
+      "address": "10 Oxford Street, Swansea SA1 3QQ",
+      "families_served_weekly": 71,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "836aaf25-28ec-4578-85e2-85fd6eefbdd7",
+    "fields": {
+      "name": "Bangor Food Bank",
+      "postcode": "LL57 1NW",
+      "latitude": "53.2274",
+      "longitude": "-4.1293",
+      "address": "4 High Street, Bangor LL57 1NW",
+      "families_served_weekly": 214,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+    "fields": {
+      "name": "Belfast City Centre Food Bank",
+      "postcode": "BT1 5GS",
+      "latitude": "54.5973",
+      "longitude": "-5.9301",
+      "address": "38 Royal Avenue, Belfast BT1 5GS",
+      "families_served_weekly": 162,
+      "urgency_level": "active",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "e4520f9a-b06e-4b78-83e4-638ae0e1eaf6",
+    "fields": {
+      "name": "Falls Community Pantry",
+      "postcode": "BT12 5GH",
+      "latitude": "54.5901",
+      "longitude": "-5.9564",
+      "address": "15 Falls Road, Belfast BT12 5GH",
+      "families_served_weekly": 252,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbank",
+    "pk": "a57525e2-cc9a-4bb6-beb6-9ddbdcdff20c",
+    "fields": {
+      "name": "Derry/Londonderry Food Bank",
+      "postcode": "BT48 6HL",
+      "latitude": "54.9966",
+      "longitude": "-7.3086",
+      "address": "23 Strand Road, Derry BT48 6HL",
+      "families_served_weekly": 345,
+      "urgency_level": "urgent",
+      "created_at": "2026-03-05T12:00:00Z",
+      "last_updated": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "8c8f51aa-227b-40df-af9d-f5272e4616cf",
+    "fields": {
+      "food_bank": "ccf7ac6c-64ee-4c5c-93a3-b4e0b59ee2c8",
+      "item_name": "Cereal",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 90,
+      "unit": "boxes",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "df94e142-52a0-4519-833c-da187271c1bf",
+    "fields": {
+      "food_bank": "ccf7ac6c-64ee-4c5c-93a3-b4e0b59ee2c8",
+      "item_name": "UHT Milk",
+      "category": "dairy",
+      "urgency": "optional",
+      "quantity_needed": 92,
+      "unit": "litres",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "924eab5e-2ee0-4630-aac4-9c4f9f82c4e4",
+    "fields": {
+      "food_bank": "ccf7ac6c-64ee-4c5c-93a3-b4e0b59ee2c8",
+      "item_name": "Eggs",
+      "category": "fresh",
+      "urgency": "optional",
+      "quantity_needed": 86,
+      "unit": "boxes",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "6c897eaf-d1de-4c22-b0f3-fa1419aeb1f9",
+    "fields": {
+      "food_bank": "040f3df4-db85-42bd-9f39-b4509dae96fc",
+      "item_name": "Cereal",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 86,
+      "unit": "boxes",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "05e29607-1070-4806-860e-b9b7440a3b20",
+    "fields": {
+      "food_bank": "040f3df4-db85-42bd-9f39-b4509dae96fc",
+      "item_name": "Nappies Size 5",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 92,
+      "unit": "packs",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3df9218e-2a0f-4418-af4b-0cfc6622d6cd",
+    "fields": {
+      "food_bank": "040f3df4-db85-42bd-9f39-b4509dae96fc",
+      "item_name": "Long-Life Juice",
+      "category": "dairy",
+      "urgency": "urgent",
+      "quantity_needed": 34,
+      "unit": "litres",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "87146d9c-02b3-4828-8c86-35eee87a5207",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "item_name": "Powdered Milk",
+      "category": "dairy",
+      "urgency": "urgent",
+      "quantity_needed": 77,
+      "unit": "kg",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "01b723ea-0ee6-41e2-a4ba-72b7042ad4cf",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "item_name": "Onions",
+      "category": "fresh",
+      "urgency": "urgent",
+      "quantity_needed": 88,
+      "unit": "kg",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "8c12828b-f633-4d9b-90c9-bd3002e44f1a",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "item_name": "Tinned Sweetcorn",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 87,
+      "unit": "tins",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "a8e41016-c872-4a42-aefa-3097c1113446",
+    "fields": {
+      "food_bank": "24f7f870-a69d-4ba9-99ca-a1d4577c44c9",
+      "item_name": "Potatoes",
+      "category": "fresh",
+      "urgency": "optional",
+      "quantity_needed": 76,
+      "unit": "kg",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "562381f0-49bc-4a5c-8be1-775f1b82fc10",
+    "fields": {
+      "food_bank": "24f7f870-a69d-4ba9-99ca-a1d4577c44c9",
+      "item_name": "Rice",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 100,
+      "unit": "kg",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "23861fed-12a7-4546-9fe2-de66c38b809c",
+    "fields": {
+      "food_bank": "24f7f870-a69d-4ba9-99ca-a1d4577c44c9",
+      "item_name": "Instant Noodles",
+      "category": "dried_goods",
+      "urgency": "optional",
+      "quantity_needed": 56,
+      "unit": "packs",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "183ec484-4926-4212-ac39-00244e4fdf8b",
+    "fields": {
+      "food_bank": "1839be64-06a4-41cb-b652-379480b330bb",
+      "item_name": "Rice",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 11,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3af403ac-9013-4ac2-a62c-d6f0fa71c211",
+    "fields": {
+      "food_bank": "1839be64-06a4-41cb-b652-379480b330bb",
+      "item_name": "Toothpaste",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 85,
+      "unit": "items",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "97c726cf-eef5-4739-95c4-be70e4bbac20",
+    "fields": {
+      "food_bank": "1839be64-06a4-41cb-b652-379480b330bb",
+      "item_name": "Baby Food Pouches",
+      "category": "baby",
+      "urgency": "optional",
+      "quantity_needed": 59,
+      "unit": "packs",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "ca84d748-009b-4298-a5fe-96f7a33f8b54",
+    "fields": {
+      "food_bank": "0de83961-e82d-4f34-9b3c-9bb77577989e",
+      "item_name": "Long-Life Juice",
+      "category": "dairy",
+      "urgency": "needed",
+      "quantity_needed": 75,
+      "unit": "litres",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "fdd9fd0f-5e03-4dad-b05a-b0e87c9f5e7f",
+    "fields": {
+      "food_bank": "0de83961-e82d-4f34-9b3c-9bb77577989e",
+      "item_name": "Toilet Roll",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 97,
+      "unit": "rolls",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "0c64257c-2377-4a88-a33d-03d89e0bb9f7",
+    "fields": {
+      "food_bank": "0de83961-e82d-4f34-9b3c-9bb77577989e",
+      "item_name": "Nappies Size 5",
+      "category": "baby",
+      "urgency": "optional",
+      "quantity_needed": 73,
+      "unit": "packs",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "9b8112ce-7945-4bb1-9de7-f30ef4a22c84",
+    "fields": {
+      "food_bank": "0de83961-e82d-4f34-9b3c-9bb77577989e",
+      "item_name": "Shampoo",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 48,
+      "unit": "items",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "5a92cb3e-cf28-4089-8307-cd2bad99ec0b",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "item_name": "Baby Formula",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 97,
+      "unit": "tins",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "b2c19a29-25c2-46fe-a44e-d43a2be97f0e",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "item_name": "Cereal",
+      "category": "dried_goods",
+      "urgency": "optional",
+      "quantity_needed": 27,
+      "unit": "boxes",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "f8bf2ccf-0369-4ada-a29a-4dc3bc7014c8",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "item_name": "Nappies Size 5",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 85,
+      "unit": "packs",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "cbbf793b-2b7f-431e-b411-a0e12ad4e247",
+    "fields": {
+      "food_bank": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+      "item_name": "Pasta",
+      "category": "dried_goods",
+      "urgency": "optional",
+      "quantity_needed": 72,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "1633bf03-3417-4c0a-99ff-ea47647b6809",
+    "fields": {
+      "food_bank": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+      "item_name": "UHT Milk",
+      "category": "dairy",
+      "urgency": "optional",
+      "quantity_needed": 46,
+      "unit": "litres",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "7f69c3f1-4486-4a8d-886d-020fafcf721d",
+    "fields": {
+      "food_bank": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+      "item_name": "Cereal",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 19,
+      "unit": "boxes",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3999ff14-9ce8-40f1-b588-d66fd492fb60",
+    "fields": {
+      "food_bank": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+      "item_name": "Instant Noodles",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 15,
+      "unit": "packs",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "c8b6a1db-bba2-4f33-a9bc-aaa42c39264e",
+    "fields": {
+      "food_bank": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+      "item_name": "Tinned Tuna",
+      "category": "tinned_goods",
+      "urgency": "urgent",
+      "quantity_needed": 73,
+      "unit": "tins",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "b8bb8519-c2ff-4bf1-bebe-ecc5c687ce32",
+    "fields": {
+      "food_bank": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+      "item_name": "Washing-Up Liquid",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 89,
+      "unit": "items",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "17287016-4f87-4462-8216-5633a764bc29",
+    "fields": {
+      "food_bank": "642991b1-c2eb-46bb-8240-d1ca802ba7e4",
+      "item_name": "Potatoes",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 32,
+      "unit": "kg",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "09699ec7-869b-4836-b5c0-af885f9e8210",
+    "fields": {
+      "food_bank": "642991b1-c2eb-46bb-8240-d1ca802ba7e4",
+      "item_name": "Shampoo",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 93,
+      "unit": "items",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "022788ef-6be6-4bd9-ab4e-b33df9c927fc",
+    "fields": {
+      "food_bank": "642991b1-c2eb-46bb-8240-d1ca802ba7e4",
+      "item_name": "Toilet Roll",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 44,
+      "unit": "rolls",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "4e9b9b45-f557-47c9-9af8-ad5be5d69e05",
+    "fields": {
+      "food_bank": "846ea6b7-6484-4942-ae39-a2d3985f8948",
+      "item_name": "Nappies Size 3",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 33,
+      "unit": "packs",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "979cade2-968f-4215-a1ce-c6519713baea",
+    "fields": {
+      "food_bank": "846ea6b7-6484-4942-ae39-a2d3985f8948",
+      "item_name": "Shampoo",
+      "category": "hygiene",
+      "urgency": "needed",
+      "quantity_needed": 7,
+      "unit": "items",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "7e349be1-3c70-48f7-ad5c-4be6d0c7e310",
+    "fields": {
+      "food_bank": "846ea6b7-6484-4942-ae39-a2d3985f8948",
+      "item_name": "Tinned Chickpeas",
+      "category": "tinned_goods",
+      "urgency": "urgent",
+      "quantity_needed": 80,
+      "unit": "tins",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "2fd6bc6b-a1d6-45d5-90b2-ddf571a9ac85",
+    "fields": {
+      "food_bank": "70c136e2-a9c3-48f1-bb6e-85137ee1829a",
+      "item_name": "Tinned Sweetcorn",
+      "category": "tinned_goods",
+      "urgency": "urgent",
+      "quantity_needed": 9,
+      "unit": "tins",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "287d31cb-8556-4efd-ad05-e18c03f82709",
+    "fields": {
+      "food_bank": "70c136e2-a9c3-48f1-bb6e-85137ee1829a",
+      "item_name": "Tinned Tuna",
+      "category": "tinned_goods",
+      "urgency": "urgent",
+      "quantity_needed": 70,
+      "unit": "tins",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3fd6c2fd-568d-4d18-85cc-231eefcc1675",
+    "fields": {
+      "food_bank": "70c136e2-a9c3-48f1-bb6e-85137ee1829a",
+      "item_name": "Lentils",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 90,
+      "unit": "kg",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "f5c3b3ee-1fc4-48ec-ab99-00acbaadaf69",
+    "fields": {
+      "food_bank": "e1f914b1-56f5-4c0a-bd57-317be3fbd355",
+      "item_name": "Soap",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 65,
+      "unit": "items",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "ae461c9f-ec1a-48bc-a4ea-521da4529d93",
+    "fields": {
+      "food_bank": "e1f914b1-56f5-4c0a-bd57-317be3fbd355",
+      "item_name": "Rice",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 57,
+      "unit": "kg",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "b61591fa-1ff8-4bed-8577-4dfe9c7954ef",
+    "fields": {
+      "food_bank": "e1f914b1-56f5-4c0a-bd57-317be3fbd355",
+      "item_name": "Washing-Up Liquid",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 17,
+      "unit": "items",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "2ef411ed-aae4-4b06-8a0b-23c2a49fe73a",
+    "fields": {
+      "food_bank": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+      "item_name": "Baby Formula",
+      "category": "baby",
+      "urgency": "optional",
+      "quantity_needed": 11,
+      "unit": "tins",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "a40201ea-3ec9-4158-b8f9-9160e225b988",
+    "fields": {
+      "food_bank": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+      "item_name": "Cheese Spread",
+      "category": "dairy",
+      "urgency": "urgent",
+      "quantity_needed": 56,
+      "unit": "items",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "c49ff7a4-a941-4c02-a1f2-d62255308e0c",
+    "fields": {
+      "food_bank": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+      "item_name": "Nappies Size 5",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 36,
+      "unit": "packs",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "20a4d55f-8f79-4282-9fe8-03a1044e2732",
+    "fields": {
+      "food_bank": "ef6e15de-47dc-4ca7-bb09-507f555a99dc",
+      "item_name": "Soap",
+      "category": "hygiene",
+      "urgency": "needed",
+      "quantity_needed": 28,
+      "unit": "items",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "bab8fbd3-52f3-4701-97a8-3819dad5b8ae",
+    "fields": {
+      "food_bank": "ef6e15de-47dc-4ca7-bb09-507f555a99dc",
+      "item_name": "Nappies Size 3",
+      "category": "baby",
+      "urgency": "needed",
+      "quantity_needed": 36,
+      "unit": "packs",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "6524ea60-b5a5-4fc2-96d2-9405f82468e9",
+    "fields": {
+      "food_bank": "ef6e15de-47dc-4ca7-bb09-507f555a99dc",
+      "item_name": "Rice",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 75,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "cc50bf86-b572-459b-8f1a-f82d9d0f5e76",
+    "fields": {
+      "food_bank": "6fa2245a-48da-438b-a886-739849a2247e",
+      "item_name": "Soap",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 26,
+      "unit": "items",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "39285b5b-ced4-4b86-baf8-212801ae4580",
+    "fields": {
+      "food_bank": "6fa2245a-48da-438b-a886-739849a2247e",
+      "item_name": "Baked Beans",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 66,
+      "unit": "tins",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "56aeeda9-61d7-4663-9e6d-f033e9b7664d",
+    "fields": {
+      "food_bank": "6fa2245a-48da-438b-a886-739849a2247e",
+      "item_name": "Tinned Fruit",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 12,
+      "unit": "tins",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3caa2b34-9fd7-461c-878d-7ab5119c279f",
+    "fields": {
+      "food_bank": "d05ef4bd-c6ee-4f48-969c-077a2722dbc3",
+      "item_name": "Baked Beans",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 59,
+      "unit": "tins",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "f53d75c5-5f4d-42f6-8a05-3b1efd47aed5",
+    "fields": {
+      "food_bank": "d05ef4bd-c6ee-4f48-969c-077a2722dbc3",
+      "item_name": "Long-Life Juice",
+      "category": "dairy",
+      "urgency": "optional",
+      "quantity_needed": 96,
+      "unit": "litres",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "a98837c4-6b67-4b9e-867b-9d08e697acd9",
+    "fields": {
+      "food_bank": "d05ef4bd-c6ee-4f48-969c-077a2722dbc3",
+      "item_name": "Potatoes",
+      "category": "fresh",
+      "urgency": "urgent",
+      "quantity_needed": 29,
+      "unit": "kg",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "c73dbfb5-ca3b-469c-8dab-b362babbb9d9",
+    "fields": {
+      "food_bank": "d05ef4bd-c6ee-4f48-969c-077a2722dbc3",
+      "item_name": "Nappies Size 5",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 12,
+      "unit": "packs",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "9c9ea1ab-46a0-44f2-a765-b59b58599e02",
+    "fields": {
+      "food_bank": "75290081-53bf-42a8-bffb-e017f8a04275",
+      "item_name": "Bananas",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 69,
+      "unit": "kg",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "613e6725-568e-4747-8718-7df19d0ce39e",
+    "fields": {
+      "food_bank": "75290081-53bf-42a8-bffb-e017f8a04275",
+      "item_name": "Tinned Tuna",
+      "category": "tinned_goods",
+      "urgency": "urgent",
+      "quantity_needed": 12,
+      "unit": "tins",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "4b188292-0942-4e35-b123-5bcd8d87b572",
+    "fields": {
+      "food_bank": "75290081-53bf-42a8-bffb-e017f8a04275",
+      "item_name": "Laundry Detergent",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 28,
+      "unit": "items",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "18e30ed2-47d1-4087-807f-ffa2f07fd348",
+    "fields": {
+      "food_bank": "ecb6f09b-0aa9-4b3c-9c3b-dd354097c660",
+      "item_name": "Instant Noodles",
+      "category": "dried_goods",
+      "urgency": "optional",
+      "quantity_needed": 36,
+      "unit": "packs",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "9e0b6b44-0f73-4593-a7e2-1225f8d0df23",
+    "fields": {
+      "food_bank": "ecb6f09b-0aa9-4b3c-9c3b-dd354097c660",
+      "item_name": "Powdered Milk",
+      "category": "dairy",
+      "urgency": "optional",
+      "quantity_needed": 15,
+      "unit": "kg",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "5cb891e6-4d49-4573-8db0-4b9e7d4ac0c5",
+    "fields": {
+      "food_bank": "ecb6f09b-0aa9-4b3c-9c3b-dd354097c660",
+      "item_name": "Tinned Chickpeas",
+      "category": "tinned_goods",
+      "urgency": "optional",
+      "quantity_needed": 79,
+      "unit": "tins",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "0ff3c261-0c14-4623-a1a8-7635716fe771",
+    "fields": {
+      "food_bank": "2daa743c-3676-4821-a790-e48bea1a68a9",
+      "item_name": "Potatoes",
+      "category": "fresh",
+      "urgency": "urgent",
+      "quantity_needed": 38,
+      "unit": "kg",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "37498da1-71ee-4fef-9248-efb977bfd90b",
+    "fields": {
+      "food_bank": "2daa743c-3676-4821-a790-e48bea1a68a9",
+      "item_name": "Couscous",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 90,
+      "unit": "kg",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "f93fd868-b664-48ee-986e-39bdfa17e6b8",
+    "fields": {
+      "food_bank": "2daa743c-3676-4821-a790-e48bea1a68a9",
+      "item_name": "Bananas",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 45,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "602ae44b-948f-4951-9452-e2729a9e41ac",
+    "fields": {
+      "food_bank": "137901df-71db-4f94-9686-327a0f6869cf",
+      "item_name": "Nappies Size 5",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 14,
+      "unit": "packs",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "99d1a95e-8281-4a4d-b075-c3e3a36f3872",
+    "fields": {
+      "food_bank": "137901df-71db-4f94-9686-327a0f6869cf",
+      "item_name": "Sanitary Products",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 69,
+      "unit": "packs",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "575ea24e-bedb-4e02-9d53-11ba3baa197d",
+    "fields": {
+      "food_bank": "137901df-71db-4f94-9686-327a0f6869cf",
+      "item_name": "Washing-Up Liquid",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 49,
+      "unit": "items",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "78995564-1888-44f7-8f20-e09b087ae243",
+    "fields": {
+      "food_bank": "7a643e15-f0f5-4398-8d1f-060515eeedb9",
+      "item_name": "UHT Milk",
+      "category": "dairy",
+      "urgency": "needed",
+      "quantity_needed": 74,
+      "unit": "litres",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "b3ccb8dc-1413-4e26-9946-42c3f12cf87f",
+    "fields": {
+      "food_bank": "7a643e15-f0f5-4398-8d1f-060515eeedb9",
+      "item_name": "Carrots",
+      "category": "fresh",
+      "urgency": "optional",
+      "quantity_needed": 88,
+      "unit": "kg",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "a9ec39d9-9267-47c8-ba28-41091d6dce16",
+    "fields": {
+      "food_bank": "7a643e15-f0f5-4398-8d1f-060515eeedb9",
+      "item_name": "Cereal",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 90,
+      "unit": "boxes",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "42ee4a2c-e971-448c-96b0-8cb87782d58c",
+    "fields": {
+      "food_bank": "3409ad04-1a6d-455c-9eba-4fb95d4fc95f",
+      "item_name": "Tinned Spaghetti",
+      "category": "tinned_goods",
+      "urgency": "urgent",
+      "quantity_needed": 18,
+      "unit": "tins",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "74e39373-9994-499c-bb2f-cae0a62fb77e",
+    "fields": {
+      "food_bank": "3409ad04-1a6d-455c-9eba-4fb95d4fc95f",
+      "item_name": "Rice",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 39,
+      "unit": "kg",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "f4abe404-dc66-4cd1-a0d4-9bc53bf3bbdf",
+    "fields": {
+      "food_bank": "3409ad04-1a6d-455c-9eba-4fb95d4fc95f",
+      "item_name": "Potatoes",
+      "category": "fresh",
+      "urgency": "optional",
+      "quantity_needed": 31,
+      "unit": "kg",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "26235e8f-2408-4ba9-bc3f-f7f115c5af3b",
+    "fields": {
+      "food_bank": "b36e282e-5180-44fd-a6dd-71edd5aea892",
+      "item_name": "Potatoes",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 11,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "1e8b790b-a3f2-41c6-86c7-8ec99b1559a9",
+    "fields": {
+      "food_bank": "b36e282e-5180-44fd-a6dd-71edd5aea892",
+      "item_name": "Toothpaste",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 59,
+      "unit": "items",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "4b619914-6941-4da3-b658-adeaafda2784",
+    "fields": {
+      "food_bank": "b36e282e-5180-44fd-a6dd-71edd5aea892",
+      "item_name": "Baby Food Pouches",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 5,
+      "unit": "packs",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "5077e5df-4d5e-479d-9306-e44caa5afd62",
+    "fields": {
+      "food_bank": "749de34f-8a7f-4144-9065-d9aae572aa45",
+      "item_name": "Potatoes",
+      "category": "fresh",
+      "urgency": "optional",
+      "quantity_needed": 95,
+      "unit": "kg",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "bf331e4f-1dea-49d0-b70e-e327b6d46e64",
+    "fields": {
+      "food_bank": "749de34f-8a7f-4144-9065-d9aae572aa45",
+      "item_name": "Cereal",
+      "category": "dried_goods",
+      "urgency": "optional",
+      "quantity_needed": 6,
+      "unit": "boxes",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "6202589b-4141-4c62-9bb6-1f707cdc4173",
+    "fields": {
+      "food_bank": "749de34f-8a7f-4144-9065-d9aae572aa45",
+      "item_name": "Nappies Size 3",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 93,
+      "unit": "packs",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3e25b1f7-4598-4704-9f1c-9f67b7ad383a",
+    "fields": {
+      "food_bank": "952506a3-5465-4f50-a136-af34d561c73d",
+      "item_name": "UHT Milk",
+      "category": "dairy",
+      "urgency": "urgent",
+      "quantity_needed": 60,
+      "unit": "litres",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "d6c35421-3a1f-440e-9d91-588973a4373b",
+    "fields": {
+      "food_bank": "952506a3-5465-4f50-a136-af34d561c73d",
+      "item_name": "Laundry Detergent",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 44,
+      "unit": "items",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "5a1f49dc-627c-49c7-8ddc-4b81e60227c7",
+    "fields": {
+      "food_bank": "952506a3-5465-4f50-a136-af34d561c73d",
+      "item_name": "Deodorant",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 50,
+      "unit": "items",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "eb1556a6-9dbc-4cec-8bd6-724fb10e4692",
+    "fields": {
+      "food_bank": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+      "item_name": "Tinned Spaghetti",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 84,
+      "unit": "tins",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "5441c07b-a734-498f-8af3-95f368eb10c5",
+    "fields": {
+      "food_bank": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+      "item_name": "Eggs",
+      "category": "fresh",
+      "urgency": "urgent",
+      "quantity_needed": 25,
+      "unit": "boxes",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "ff96cbb7-92fc-4a64-9e48-f6f2524bd844",
+    "fields": {
+      "food_bank": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+      "item_name": "Deodorant",
+      "category": "hygiene",
+      "urgency": "needed",
+      "quantity_needed": 8,
+      "unit": "items",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "cf416a4d-fd75-405f-b770-ca706b9ca215",
+    "fields": {
+      "food_bank": "d11d778d-cbe9-486c-b4f3-f626638ff67a",
+      "item_name": "Cheese Spread",
+      "category": "dairy",
+      "urgency": "urgent",
+      "quantity_needed": 94,
+      "unit": "items",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "14c2a462-9b6e-4dee-9900-7e2bdcfa5d89",
+    "fields": {
+      "food_bank": "d11d778d-cbe9-486c-b4f3-f626638ff67a",
+      "item_name": "Instant Noodles",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 9,
+      "unit": "packs",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3f435be9-1596-4b82-a8fb-42d394df1ce1",
+    "fields": {
+      "food_bank": "d11d778d-cbe9-486c-b4f3-f626638ff67a",
+      "item_name": "Onions",
+      "category": "fresh",
+      "urgency": "urgent",
+      "quantity_needed": 30,
+      "unit": "kg",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "8b880192-a1bc-4882-8a78-61205fe5df41",
+    "fields": {
+      "food_bank": "cc32c145-9aeb-4417-95f7-7180b95fc41a",
+      "item_name": "Apples",
+      "category": "fresh",
+      "urgency": "optional",
+      "quantity_needed": 29,
+      "unit": "kg",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "b4bccd6f-2a9c-4064-adfb-0f038a68fa0c",
+    "fields": {
+      "food_bank": "cc32c145-9aeb-4417-95f7-7180b95fc41a",
+      "item_name": "Lentils",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 40,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "d944e38d-6b20-4d47-a447-12ac1a8c0fff",
+    "fields": {
+      "food_bank": "cc32c145-9aeb-4417-95f7-7180b95fc41a",
+      "item_name": "Tinned Tomatoes",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 49,
+      "unit": "tins",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "6cf279cf-171a-4f2f-863f-3d9cfc20ab13",
+    "fields": {
+      "food_bank": "a8a51433-cf01-4214-8f9d-797fd7f93758",
+      "item_name": "Soap",
+      "category": "hygiene",
+      "urgency": "needed",
+      "quantity_needed": 27,
+      "unit": "items",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "14de9612-59de-4b42-b977-3702ee5439d0",
+    "fields": {
+      "food_bank": "a8a51433-cf01-4214-8f9d-797fd7f93758",
+      "item_name": "Bread",
+      "category": "fresh",
+      "urgency": "urgent",
+      "quantity_needed": 18,
+      "unit": "items",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "5977ada1-ea21-4b5b-8c9c-b97fcfc98ac4",
+    "fields": {
+      "food_bank": "a8a51433-cf01-4214-8f9d-797fd7f93758",
+      "item_name": "Tinned Tomatoes",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 98,
+      "unit": "tins",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "6939eea3-549b-4e03-9995-7eb448e2f571",
+    "fields": {
+      "food_bank": "a8a51433-cf01-4214-8f9d-797fd7f93758",
+      "item_name": "Tinned Chickpeas",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 82,
+      "unit": "tins",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "76f7b1dc-9898-430d-ba82-56f08670ca7f",
+    "fields": {
+      "food_bank": "f9fb805b-1db2-4cc5-8bb9-4ea47f07e79f",
+      "item_name": "Long-Life Juice",
+      "category": "dairy",
+      "urgency": "needed",
+      "quantity_needed": 10,
+      "unit": "litres",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "5bd714fb-cd80-4a7d-b58e-d530830c49bf",
+    "fields": {
+      "food_bank": "f9fb805b-1db2-4cc5-8bb9-4ea47f07e79f",
+      "item_name": "Washing-Up Liquid",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 71,
+      "unit": "items",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "19695e05-9c49-4f9a-abaf-18b73b68e7e8",
+    "fields": {
+      "food_bank": "f9fb805b-1db2-4cc5-8bb9-4ea47f07e79f",
+      "item_name": "Flour",
+      "category": "dried_goods",
+      "urgency": "optional",
+      "quantity_needed": 97,
+      "unit": "kg",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "313d265b-eb19-4d1f-8f41-43c3f969a242",
+    "fields": {
+      "food_bank": "6f9f4750-e070-40ab-ba9f-d74d4605b7ff",
+      "item_name": "Baby Formula",
+      "category": "baby",
+      "urgency": "optional",
+      "quantity_needed": 45,
+      "unit": "tins",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "f7a1c923-7875-4a3d-bc95-6671b4087c70",
+    "fields": {
+      "food_bank": "6f9f4750-e070-40ab-ba9f-d74d4605b7ff",
+      "item_name": "Tinned Sweetcorn",
+      "category": "tinned_goods",
+      "urgency": "optional",
+      "quantity_needed": 43,
+      "unit": "tins",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "e0254327-52f1-482a-9993-16872e51eee2",
+    "fields": {
+      "food_bank": "6f9f4750-e070-40ab-ba9f-d74d4605b7ff",
+      "item_name": "Bread",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 90,
+      "unit": "items",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "a1fa4b79-86a6-42bf-983a-44b400879867",
+    "fields": {
+      "food_bank": "426de5cc-c03c-4891-9832-d47efbf22f39",
+      "item_name": "Powdered Milk",
+      "category": "dairy",
+      "urgency": "urgent",
+      "quantity_needed": 29,
+      "unit": "kg",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "0d7b7b19-bff0-4f00-a3bb-96227fa8ed24",
+    "fields": {
+      "food_bank": "426de5cc-c03c-4891-9832-d47efbf22f39",
+      "item_name": "Carrots",
+      "category": "fresh",
+      "urgency": "optional",
+      "quantity_needed": 53,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "9a779d0c-8261-4812-a215-b350a0c18b32",
+    "fields": {
+      "food_bank": "426de5cc-c03c-4891-9832-d47efbf22f39",
+      "item_name": "Deodorant",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 77,
+      "unit": "items",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "568b05a6-1dde-4737-8d72-1f144569df36",
+    "fields": {
+      "food_bank": "76c3ba48-b1c3-4ed3-9087-e0b18ff5851a",
+      "item_name": "Deodorant",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 60,
+      "unit": "items",
+      "notes": "Regular demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "0ce084c9-5c4f-44a6-84de-21b21cecd3f5",
+    "fields": {
+      "food_bank": "76c3ba48-b1c3-4ed3-9087-e0b18ff5851a",
+      "item_name": "Baked Beans",
+      "category": "tinned_goods",
+      "urgency": "needed",
+      "quantity_needed": 61,
+      "unit": "tins",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "48ccabd5-ad5e-48ad-a43b-c3c18b0fef02",
+    "fields": {
+      "food_bank": "76c3ba48-b1c3-4ed3-9087-e0b18ff5851a",
+      "item_name": "Apples",
+      "category": "fresh",
+      "urgency": "optional",
+      "quantity_needed": 32,
+      "unit": "kg",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "64875e0c-37a3-4d39-881a-bdd79cb143be",
+    "fields": {
+      "food_bank": "76c3ba48-b1c3-4ed3-9087-e0b18ff5851a",
+      "item_name": "Carrots",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 99,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "e05ff63f-4606-476b-b926-049fd8b7b58b",
+    "fields": {
+      "food_bank": "43aa8aff-fc20-4a05-b161-b3a035c346a6",
+      "item_name": "Carrots",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 16,
+      "unit": "kg",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3b4f4c70-60c6-42ed-ad6d-043fc2745da4",
+    "fields": {
+      "food_bank": "43aa8aff-fc20-4a05-b161-b3a035c346a6",
+      "item_name": "Toothpaste",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 44,
+      "unit": "items",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "7df3ccf8-25bc-4cc0-a11a-a973ad5103bf",
+    "fields": {
+      "food_bank": "43aa8aff-fc20-4a05-b161-b3a035c346a6",
+      "item_name": "Sanitary Products",
+      "category": "hygiene",
+      "urgency": "urgent",
+      "quantity_needed": 23,
+      "unit": "packs",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "5c93f6af-e506-4271-b127-1ef293feff30",
+    "fields": {
+      "food_bank": "df462ea3-2970-4440-a07f-49e18fdd6779",
+      "item_name": "Instant Noodles",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 63,
+      "unit": "packs",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "829abaae-0f45-4a89-8fb8-eb785dd63946",
+    "fields": {
+      "food_bank": "df462ea3-2970-4440-a07f-49e18fdd6779",
+      "item_name": "Baby Wipes",
+      "category": "baby",
+      "urgency": "optional",
+      "quantity_needed": 78,
+      "unit": "packs",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "1761fcbd-dc3d-451c-b82d-21a40e9067e3",
+    "fields": {
+      "food_bank": "df462ea3-2970-4440-a07f-49e18fdd6779",
+      "item_name": "Sanitary Products",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 94,
+      "unit": "packs",
+      "notes": "Popular with families",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "7605e26f-1989-465b-be97-cded9512c19f",
+    "fields": {
+      "food_bank": "836aaf25-28ec-4578-85e2-85fd6eefbdd7",
+      "item_name": "Powdered Milk",
+      "category": "dairy",
+      "urgency": "urgent",
+      "quantity_needed": 59,
+      "unit": "kg",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "4faa865a-ef1b-48cf-81e4-7cd93f458276",
+    "fields": {
+      "food_bank": "836aaf25-28ec-4578-85e2-85fd6eefbdd7",
+      "item_name": "Instant Noodles",
+      "category": "dried_goods",
+      "urgency": "urgent",
+      "quantity_needed": 94,
+      "unit": "packs",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "bbb59c9c-c41f-4fc3-ba62-0f140cd48fbe",
+    "fields": {
+      "food_bank": "836aaf25-28ec-4578-85e2-85fd6eefbdd7",
+      "item_name": "Pasta",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 11,
+      "unit": "kg",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "41f08c62-e0e7-4959-a128-1263913570a5",
+    "fields": {
+      "food_bank": "836aaf25-28ec-4578-85e2-85fd6eefbdd7",
+      "item_name": "Baked Beans",
+      "category": "tinned_goods",
+      "urgency": "urgent",
+      "quantity_needed": 20,
+      "unit": "tins",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "4fb2c1df-2922-47d5-9d21-fb53f439c280",
+    "fields": {
+      "food_bank": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+      "item_name": "Nappies Size 5",
+      "category": "baby",
+      "urgency": "optional",
+      "quantity_needed": 45,
+      "unit": "packs",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "7fd3aeee-5e70-4b99-8cf7-c40a78e744bc",
+    "fields": {
+      "food_bank": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+      "item_name": "Shampoo",
+      "category": "hygiene",
+      "urgency": "optional",
+      "quantity_needed": 97,
+      "unit": "items",
+      "notes": "Stock depleted",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "45e9c477-2c2a-4ec5-b620-5158962e8529",
+    "fields": {
+      "food_bank": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+      "item_name": "Deodorant",
+      "category": "hygiene",
+      "urgency": "needed",
+      "quantity_needed": 75,
+      "unit": "items",
+      "notes": "Always in demand",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "537d8990-454c-4320-9920-8a471d5a46a1",
+    "fields": {
+      "food_bank": "e4520f9a-b06e-4b78-83e4-638ae0e1eaf6",
+      "item_name": "Baby Wipes",
+      "category": "baby",
+      "urgency": "urgent",
+      "quantity_needed": 86,
+      "unit": "packs",
+      "notes": "Urgently needed this week",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "64e457d1-cd4b-4041-96f3-aebf3ede176d",
+    "fields": {
+      "food_bank": "e4520f9a-b06e-4b78-83e4-638ae0e1eaf6",
+      "item_name": "Nappies Size 3",
+      "category": "baby",
+      "urgency": "optional",
+      "quantity_needed": 67,
+      "unit": "packs",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "3dfccb7b-d4ca-4288-86e0-00cddd0ed4af",
+    "fields": {
+      "food_bank": "e4520f9a-b06e-4b78-83e4-638ae0e1eaf6",
+      "item_name": "Potatoes",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 61,
+      "unit": "kg",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "c182ee25-2f23-4257-83c1-465ab24f915a",
+    "fields": {
+      "food_bank": "a57525e2-cc9a-4bb6-beb6-9ddbdcdff20c",
+      "item_name": "Instant Noodles",
+      "category": "dried_goods",
+      "urgency": "needed",
+      "quantity_needed": 74,
+      "unit": "packs",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "54688dfb-950f-4572-86c9-f431dfdfdc05",
+    "fields": {
+      "food_bank": "a57525e2-cc9a-4bb6-beb6-9ddbdcdff20c",
+      "item_name": "Onions",
+      "category": "fresh",
+      "urgency": "urgent",
+      "quantity_needed": 24,
+      "unit": "kg",
+      "notes": "Running very low",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.wishlistitem",
+    "pk": "52fec53a-5d84-4af5-bf80-b40fb2a8dec4",
+    "fields": {
+      "food_bank": "a57525e2-cc9a-4bb6-beb6-9ddbdcdff20c",
+      "item_name": "Bread",
+      "category": "fresh",
+      "urgency": "needed",
+      "quantity_needed": 93,
+      "unit": "items",
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "d6c24d41-1cb8-407e-a2f0-f1447ce9a7db",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "recipe_name": "Tomato Pasta Bake",
+      "description": "A warming pasta bake made with tinned tomatoes and cheese spread.",
+      "serves": 4,
+      "cook_time_minutes": 35,
+      "ingredients": [
+        {
+          "name": "Pasta",
+          "quantity": "400g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": "2 tins",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Cheese Spread",
+          "quantity": "1",
+          "unit": "items",
+          "wish_list_match": true
+        },
+        {
+          "name": "Onions",
+          "quantity": "2",
+          "unit": "kg",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Boil pasta until al dente. 2. Fry onions until soft. 3. Add tinned tomatoes and simmer. 4. Mix pasta with sauce, top with cheese spread. 5. Bake at 180C for 15 minutes.",
+      "emoji": "🍝",
+      "estimated_cost": "3.50",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "1c908b60-18f9-4144-8b53-dd3dd291185a",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "recipe_name": "Lentil Soup",
+      "description": "Hearty lentil soup with vegetables, perfect for cold days.",
+      "serves": 4,
+      "cook_time_minutes": 40,
+      "ingredients": [
+        {
+          "name": "Lentils",
+          "quantity": "300g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Carrots",
+          "quantity": "3",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Onions",
+          "quantity": "1",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Dice carrots and onions. 2. Sauté in a large pot for 5 minutes. 3. Add lentils, tinned tomatoes, and 1 litre water. 4. Simmer for 30 minutes until lentils are soft. 5. Season and serve.",
+      "emoji": "🥣",
+      "estimated_cost": "2.80",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "18127298-1267-4341-ba33-8cbf4ddf5f35",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "recipe_name": "Bean Chilli",
+      "description": "Spicy bean chilli served with rice, made from store cupboard staples.",
+      "serves": 4,
+      "cook_time_minutes": 30,
+      "ingredients": [
+        {
+          "name": "Baked Beans",
+          "quantity": "2 tins",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Rice",
+          "quantity": "300g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Onions",
+          "quantity": "1",
+          "unit": "kg",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Fry diced onions. 2. Add baked beans and tinned tomatoes. 3. Season with chilli powder and cumin. 4. Simmer for 20 minutes. 5. Serve over cooked rice.",
+      "emoji": "🌶️",
+      "estimated_cost": "3.20",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "c4cbc85f-3455-4e33-9640-8ea221edfed4",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "recipe_name": "Tuna Pasta",
+      "description": "Quick and easy tuna pasta with sweetcorn.",
+      "serves": 2,
+      "cook_time_minutes": 15,
+      "ingredients": [
+        {
+          "name": "Pasta",
+          "quantity": "200g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Tuna",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Sweetcorn",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Cook pasta according to pack instructions. 2. Drain tuna and sweetcorn. 3. Mix with hot pasta. 4. Season with pepper and serve.",
+      "emoji": "🐟",
+      "estimated_cost": "2.50",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "7455a9bd-1075-4de7-a8f8-cbd61336330d",
+    "fields": {
+      "food_bank": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+      "recipe_name": "Chickpea Curry",
+      "description": "Mild chickpea curry with rice, budget-friendly and filling.",
+      "serves": 4,
+      "cook_time_minutes": 25,
+      "ingredients": [
+        {
+          "name": "Tinned Chickpeas",
+          "quantity": "2 tins",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Rice",
+          "quantity": "300g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Onions",
+          "quantity": "1",
+          "unit": "kg",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Fry onions until golden. 2. Add curry powder, stir for 1 minute. 3. Add chickpeas and tomatoes. 4. Simmer for 15 minutes. 5. Serve with boiled rice.",
+      "emoji": "🍛",
+      "estimated_cost": "3.00",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "6e5bf076-8db8-4bf1-9b9d-9e73e977ffca",
+    "fields": {
+      "food_bank": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+      "recipe_name": "Spaghetti Bolognese",
+      "description": "Classic spaghetti with a rich lentil and tomato sauce.",
+      "serves": 4,
+      "cook_time_minutes": 45,
+      "ingredients": [
+        {
+          "name": "Pasta",
+          "quantity": "400g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Lentils",
+          "quantity": "200g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": "2 tins",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Carrots",
+          "quantity": "2",
+          "unit": "kg",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Boil lentils until soft. 2. Fry grated carrots. 3. Add tinned tomatoes and cooked lentils. 4. Simmer for 20 minutes. 5. Serve over spaghetti.",
+      "emoji": "🍝",
+      "estimated_cost": "3.80",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "61a77593-080d-43d9-be64-339607bc4d34",
+    "fields": {
+      "food_bank": "75290081-53bf-42a8-bffb-e017f8a04275",
+      "recipe_name": "Porridge with Fruit",
+      "description": "Warm porridge topped with tinned fruit, a comforting breakfast.",
+      "serves": 2,
+      "cook_time_minutes": 10,
+      "ingredients": [
+        {
+          "name": "Porridge Oats",
+          "quantity": "100g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "UHT Milk",
+          "quantity": "300ml",
+          "unit": "litres",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Fruit",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Put oats and milk in a saucepan. 2. Cook on medium heat for 5 minutes, stirring. 3. Pour into bowls. 4. Top with drained tinned fruit.",
+      "emoji": "🍚",
+      "estimated_cost": "2.00",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "29821372-b002-4ce8-ac29-19ae7804db64",
+    "fields": {
+      "food_bank": "75290081-53bf-42a8-bffb-e017f8a04275",
+      "recipe_name": "Potato and Bean Stew",
+      "description": "Filling potato and bean stew, perfect for feeding a family.",
+      "serves": 6,
+      "cook_time_minutes": 50,
+      "ingredients": [
+        {
+          "name": "Potatoes",
+          "quantity": "500g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Baked Beans",
+          "quantity": "2 tins",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Onions",
+          "quantity": "2",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Peel and dice potatoes. 2. Fry onions until soft. 3. Add potatoes, beans, and tomatoes. 4. Add water to cover. 5. Simmer for 35 minutes until potatoes are tender.",
+      "emoji": "🍲",
+      "estimated_cost": "3.50",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "4d9dfd6d-91dd-4fe0-b93b-deb1a3786654",
+    "fields": {
+      "food_bank": "846ea6b7-6484-4942-ae39-a2d3985f8948",
+      "recipe_name": "Egg Fried Rice",
+      "description": "Simple egg fried rice with vegetables.",
+      "serves": 2,
+      "cook_time_minutes": 15,
+      "ingredients": [
+        {
+          "name": "Rice",
+          "quantity": "200g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Eggs",
+          "quantity": "2",
+          "unit": "boxes",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Sweetcorn",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Cook rice and let cool slightly. 2. Scramble eggs in a wok. 3. Add rice and sweetcorn. 4. Stir-fry for 3 minutes. 5. Season with soy sauce if available.",
+      "emoji": "🍚",
+      "estimated_cost": "2.20",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "d183f8ca-e4d7-43b8-93fd-faeaf8ae42ec",
+    "fields": {
+      "food_bank": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+      "recipe_name": "Noodle Soup",
+      "description": "Quick noodle soup with tinned vegetables.",
+      "serves": 2,
+      "cook_time_minutes": 10,
+      "ingredients": [
+        {
+          "name": "Instant Noodles",
+          "quantity": "2 packs",
+          "unit": "packs",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Sweetcorn",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Soup",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Boil water and cook noodles. 2. Heat soup in a separate pan. 3. Combine noodles and soup. 4. Add sweetcorn and serve hot.",
+      "emoji": "🍜",
+      "estimated_cost": "2.00",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "1880d69c-0c80-429e-8214-d957065590b8",
+    "fields": {
+      "food_bank": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+      "recipe_name": "Couscous Salad",
+      "description": "Light couscous salad with chickpeas and tinned vegetables.",
+      "serves": 3,
+      "cook_time_minutes": 15,
+      "ingredients": [
+        {
+          "name": "Couscous",
+          "quantity": "200g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Chickpeas",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        },
+        {
+          "name": "Tinned Sweetcorn",
+          "quantity": "1 tin",
+          "unit": "tins",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Pour boiling water over couscous and cover for 5 minutes. 2. Fluff with a fork. 3. Drain chickpeas and sweetcorn. 4. Mix everything together. 5. Season and serve.",
+      "emoji": "🥗",
+      "estimated_cost": "2.50",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.generatedrecipe",
+    "pk": "f8cf878e-acb8-4c39-87ca-fbd53b9c0f39",
+    "fields": {
+      "food_bank": "2daa743c-3676-4821-a790-e48bea1a68a9",
+      "recipe_name": "Banana Porridge",
+      "description": "Creamy banana porridge, a nutritious start to the day.",
+      "serves": 2,
+      "cook_time_minutes": 10,
+      "ingredients": [
+        {
+          "name": "Porridge Oats",
+          "quantity": "100g",
+          "unit": "kg",
+          "wish_list_match": true
+        },
+        {
+          "name": "UHT Milk",
+          "quantity": "300ml",
+          "unit": "litres",
+          "wish_list_match": true
+        },
+        {
+          "name": "Bananas",
+          "quantity": "2",
+          "unit": "kg",
+          "wish_list_match": true
+        }
+      ],
+      "instructions": "1. Put oats and milk in a pan. 2. Cook on medium heat for 5 minutes, stirring. 3. Slice bananas. 4. Pour porridge into bowls and top with banana slices.",
+      "emoji": "🍌",
+      "estimated_cost": "2.00",
+      "generated_at": "2026-03-05T12:00:00Z",
+      "expires_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "3b5daaeb-b9d8-4fc3-87f5-eb4cd76b8d2d",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "donation_type": "recipe_kit",
+      "recipe": "d6c24d41-1cb8-407e-a2f0-f1447ce9a7db",
+      "items": [
+        {
+          "name": "Pasta",
+          "quantity": 1,
+          "unit_price": "1.48"
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": 1,
+          "unit_price": "1.05"
+        },
+        {
+          "name": "Cheese Spread",
+          "quantity": 1,
+          "unit_price": "1.47"
+        },
+        {
+          "name": "Onions",
+          "quantity": 1,
+          "unit_price": "1.28"
+        }
+      ],
+      "total_cost": "5.28",
+      "postcode": "BN1 1AA",
+      "completed": false,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "d779054e-2bc1-460d-a380-1ec8287bd257",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "donation_type": "recipe_kit",
+      "recipe": "1c908b60-18f9-4144-8b53-dd3dd291185a",
+      "items": [
+        {
+          "name": "Lentils",
+          "quantity": 1,
+          "unit_price": "1.95"
+        },
+        {
+          "name": "Carrots",
+          "quantity": 1,
+          "unit_price": "2.18"
+        },
+        {
+          "name": "Onions",
+          "quantity": 1,
+          "unit_price": "2.34"
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": 1,
+          "unit_price": "2.46"
+        }
+      ],
+      "total_cost": "8.93",
+      "postcode": "SW1A 1AA",
+      "completed": false,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "6ac42521-238f-49cc-b1a9-56eb9224c392",
+    "fields": {
+      "food_bank": "952506a3-5465-4f50-a136-af34d561c73d",
+      "donation_type": "individual_items",
+      "recipe": null,
+      "items": [
+        {
+          "name": "Tinned Fruit",
+          "quantity": 3,
+          "unit_price": "1.57"
+        },
+        {
+          "name": "Nappies Size 5",
+          "quantity": 1,
+          "unit_price": "0.63"
+        }
+      ],
+      "total_cost": "5.34",
+      "postcode": "LE1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "408ebf76-6456-4027-a84e-c16d50d94b27",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "donation_type": "recipe_kit",
+      "recipe": "18127298-1267-4341-ba33-8cbf4ddf5f35",
+      "items": [
+        {
+          "name": "Baked Beans",
+          "quantity": 1,
+          "unit_price": "0.92"
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": 1,
+          "unit_price": "1.15"
+        },
+        {
+          "name": "Rice",
+          "quantity": 1,
+          "unit_price": "2.02"
+        },
+        {
+          "name": "Onions",
+          "quantity": 1,
+          "unit_price": "1.26"
+        }
+      ],
+      "total_cost": "5.35",
+      "postcode": "NE1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "9f781366-b2ca-40b6-a049-945464d02c70",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "donation_type": "recipe_kit",
+      "recipe": "c4cbc85f-3455-4e33-9640-8ea221edfed4",
+      "items": [
+        {
+          "name": "Pasta",
+          "quantity": 1,
+          "unit_price": "2.17"
+        },
+        {
+          "name": "Tinned Tuna",
+          "quantity": 1,
+          "unit_price": "1.44"
+        },
+        {
+          "name": "Tinned Sweetcorn",
+          "quantity": 1,
+          "unit_price": "2.0"
+        }
+      ],
+      "total_cost": "5.61",
+      "postcode": "SO14 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "c634bcb8-0280-400c-8119-3e08380ad59e",
+    "fields": {
+      "food_bank": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+      "donation_type": "recipe_kit",
+      "recipe": "7455a9bd-1075-4de7-a8f8-cbd61336330d",
+      "items": [
+        {
+          "name": "Tinned Chickpeas",
+          "quantity": 1,
+          "unit_price": "0.95"
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": 1,
+          "unit_price": "0.64"
+        },
+        {
+          "name": "Rice",
+          "quantity": 1,
+          "unit_price": "2.41"
+        },
+        {
+          "name": "Onions",
+          "quantity": 1,
+          "unit_price": "0.58"
+        }
+      ],
+      "total_cost": "4.58",
+      "postcode": "S1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "d4420a00-627f-45e6-88e7-d10afdfc3b86",
+    "fields": {
+      "food_bank": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+      "donation_type": "recipe_kit",
+      "recipe": "6e5bf076-8db8-4bf1-9b9d-9e73e977ffca",
+      "items": [
+        {
+          "name": "Pasta",
+          "quantity": 1,
+          "unit_price": "0.9"
+        },
+        {
+          "name": "Lentils",
+          "quantity": 1,
+          "unit_price": "0.54"
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": 1,
+          "unit_price": "0.8"
+        },
+        {
+          "name": "Carrots",
+          "quantity": 1,
+          "unit_price": "0.75"
+        }
+      ],
+      "total_cost": "2.99",
+      "postcode": "B1 1BB",
+      "completed": false,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "b524bb50-f5a8-4d4e-bddc-dcd5c9ed7408",
+    "fields": {
+      "food_bank": "75290081-53bf-42a8-bffb-e017f8a04275",
+      "donation_type": "recipe_kit",
+      "recipe": "61a77593-080d-43d9-be64-339607bc4d34",
+      "items": [
+        {
+          "name": "Porridge Oats",
+          "quantity": 1,
+          "unit_price": "1.63"
+        },
+        {
+          "name": "UHT Milk",
+          "quantity": 1,
+          "unit_price": "0.94"
+        },
+        {
+          "name": "Tinned Fruit",
+          "quantity": 1,
+          "unit_price": "1.9"
+        }
+      ],
+      "total_cost": "4.47",
+      "postcode": "L1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "2f1a16f9-7fa5-4125-b4be-759cdce322bf",
+    "fields": {
+      "food_bank": "e4520f9a-b06e-4b78-83e4-638ae0e1eaf6",
+      "donation_type": "individual_items",
+      "recipe": null,
+      "items": [
+        {
+          "name": "Cereal",
+          "quantity": 2,
+          "unit_price": "0.77"
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": 2,
+          "unit_price": "1.94"
+        }
+      ],
+      "total_cost": "5.42",
+      "postcode": "BN1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "b43c94e6-9562-4a1c-8602-0beedbe28649",
+    "fields": {
+      "food_bank": "e1f914b1-56f5-4c0a-bd57-317be3fbd355",
+      "donation_type": "individual_items",
+      "recipe": null,
+      "items": [
+        {
+          "name": "Laundry Detergent",
+          "quantity": 3,
+          "unit_price": "2.58"
+        },
+        {
+          "name": "Instant Noodles",
+          "quantity": 1,
+          "unit_price": "2.24"
+        }
+      ],
+      "total_cost": "9.98",
+      "postcode": "B1 1BB",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "82bda8c3-4ad3-4860-bb21-a2cd51bc472b",
+    "fields": {
+      "food_bank": "75290081-53bf-42a8-bffb-e017f8a04275",
+      "donation_type": "recipe_kit",
+      "recipe": "29821372-b002-4ce8-ac29-19ae7804db64",
+      "items": [
+        {
+          "name": "Potatoes",
+          "quantity": 1,
+          "unit_price": "2.09"
+        },
+        {
+          "name": "Baked Beans",
+          "quantity": 1,
+          "unit_price": "1.63"
+        },
+        {
+          "name": "Onions",
+          "quantity": 1,
+          "unit_price": "0.58"
+        },
+        {
+          "name": "Tinned Tomatoes",
+          "quantity": 1,
+          "unit_price": "1.57"
+        }
+      ],
+      "total_cost": "5.87",
+      "postcode": "SO14 1AA",
+      "completed": false,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "f09adedf-024d-4231-ad05-5857adec44aa",
+    "fields": {
+      "food_bank": "1839be64-06a4-41cb-b652-379480b330bb",
+      "donation_type": "individual_items",
+      "recipe": null,
+      "items": [
+        {
+          "name": "Baked Beans",
+          "quantity": 2,
+          "unit_price": "2.56"
+        },
+        {
+          "name": "Tinned Spaghetti",
+          "quantity": 2,
+          "unit_price": "2.9"
+        },
+        {
+          "name": "Nappies Size 5",
+          "quantity": 3,
+          "unit_price": "0.88"
+        },
+        {
+          "name": "Porridge Oats",
+          "quantity": 3,
+          "unit_price": "1.8"
+        }
+      ],
+      "total_cost": "18.96",
+      "postcode": "NE1 1AA",
+      "completed": false,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "cf961199-5ec1-448b-920f-207b737d05cd",
+    "fields": {
+      "food_bank": "846ea6b7-6484-4942-ae39-a2d3985f8948",
+      "donation_type": "recipe_kit",
+      "recipe": "4d9dfd6d-91dd-4fe0-b93b-deb1a3786654",
+      "items": [
+        {
+          "name": "Rice",
+          "quantity": 1,
+          "unit_price": "1.73"
+        },
+        {
+          "name": "Eggs",
+          "quantity": 1,
+          "unit_price": "2.34"
+        },
+        {
+          "name": "Tinned Sweetcorn",
+          "quantity": 1,
+          "unit_price": "2.05"
+        }
+      ],
+      "total_cost": "6.12",
+      "postcode": "OX1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "6c4acd71-8279-4f6b-8463-774e72fd262a",
+    "fields": {
+      "food_bank": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+      "donation_type": "individual_items",
+      "recipe": null,
+      "items": [
+        {
+          "name": "Bananas",
+          "quantity": 1,
+          "unit_price": "2.58"
+        },
+        {
+          "name": "Tinned Fruit",
+          "quantity": 2,
+          "unit_price": "2.7"
+        },
+        {
+          "name": "Instant Noodles",
+          "quantity": 2,
+          "unit_price": "1.92"
+        },
+        {
+          "name": "Long-Life Juice",
+          "quantity": 2,
+          "unit_price": "0.57"
+        }
+      ],
+      "total_cost": "12.96",
+      "postcode": "L1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "b28d9a40-a9da-4ea7-9fd5-bd068772c39b",
+    "fields": {
+      "food_bank": "6f9f4750-e070-40ab-ba9f-d74d4605b7ff",
+      "donation_type": "individual_items",
+      "recipe": null,
+      "items": [
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit_price": "1.35"
+        },
+        {
+          "name": "Toilet Roll",
+          "quantity": 3,
+          "unit_price": "2.7"
+        },
+        {
+          "name": "Deodorant",
+          "quantity": 1,
+          "unit_price": "1.79"
+        }
+      ],
+      "total_cost": "12.59",
+      "postcode": "M1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "6471134e-6994-4f59-bffc-7910c446f704",
+    "fields": {
+      "food_bank": "6fa2245a-48da-438b-a886-739849a2247e",
+      "donation_type": "individual_items",
+      "recipe": null,
+      "items": [
+        {
+          "name": "Baby Food Pouches",
+          "quantity": 3,
+          "unit_price": "2.4"
+        },
+        {
+          "name": "Baby Wipes",
+          "quantity": 3,
+          "unit_price": "2.28"
+        },
+        {
+          "name": "Nappies Size 3",
+          "quantity": 1,
+          "unit_price": "0.73"
+        },
+        {
+          "name": "Lentils",
+          "quantity": 2,
+          "unit_price": "2.23"
+        },
+        {
+          "name": "Apples",
+          "quantity": 3,
+          "unit_price": "1.95"
+        }
+      ],
+      "total_cost": "25.08",
+      "postcode": "CF10 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "11e90473-af15-45aa-8be8-703c1a693be1",
+    "fields": {
+      "food_bank": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+      "donation_type": "recipe_kit",
+      "recipe": "d183f8ca-e4d7-43b8-93fd-faeaf8ae42ec",
+      "items": [
+        {
+          "name": "Instant Noodles",
+          "quantity": 1,
+          "unit_price": "1.56"
+        },
+        {
+          "name": "Tinned Sweetcorn",
+          "quantity": 1,
+          "unit_price": "1.35"
+        },
+        {
+          "name": "Tinned Soup",
+          "quantity": 1,
+          "unit_price": "1.99"
+        }
+      ],
+      "total_cost": "4.9",
+      "postcode": "SO14 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.donation",
+    "pk": "5d83ae9c-b76b-4911-86d8-26628007f770",
+    "fields": {
+      "food_bank": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+      "donation_type": "recipe_kit",
+      "recipe": "1880d69c-0c80-429e-8214-d957065590b8",
+      "items": [
+        {
+          "name": "Couscous",
+          "quantity": 1,
+          "unit_price": "1.91"
+        },
+        {
+          "name": "Tinned Chickpeas",
+          "quantity": 1,
+          "unit_price": "1.04"
+        },
+        {
+          "name": "Tinned Sweetcorn",
+          "quantity": 1,
+          "unit_price": "1.0"
+        }
+      ],
+      "total_cost": "3.95",
+      "postcode": "BS1 1AA",
+      "completed": true,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "c45f6b71-e8c0-49fb-862b-b8a033853a2d",
+    "fields": {
+      "donation": "408ebf76-6456-4027-a84e-c16d50d94b27",
+      "supermarket": "Tesco",
+      "status": "pending",
+      "tracking_number": "TRK-2026-100",
+      "estimated_delivery": null,
+      "actual_delivery": null,
+      "received_confirmed": false,
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "2fc57959-b3cd-4bb1-9277-def891b6490b",
+    "fields": {
+      "donation": "d4420a00-627f-45e6-88e7-d10afdfc3b86",
+      "supermarket": "Asda",
+      "status": "delivered",
+      "tracking_number": "TRK-2026-101",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": "2026-03-07T10:30:00Z",
+      "received_confirmed": false,
+      "notes": "Leave at reception",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "382732a0-c878-456c-8e82-05755a748b87",
+    "fields": {
+      "donation": "b43c94e6-9562-4a1c-8602-0beedbe28649",
+      "supermarket": "Waitrose",
+      "status": "dispatched",
+      "tracking_number": "TRK-2026-102",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": null,
+      "received_confirmed": false,
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "b3fb7337-6b7c-4e42-9226-7082fb4c3b85",
+    "fields": {
+      "donation": "5d83ae9c-b76b-4911-86d8-26628007f770",
+      "supermarket": "Tesco",
+      "status": "received",
+      "tracking_number": "TRK-2026-103",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": "2026-03-07T10:30:00Z",
+      "received_confirmed": true,
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "ec8527d8-d113-4f26-b53d-21625796500b",
+    "fields": {
+      "donation": "c634bcb8-0280-400c-8119-3e08380ad59e",
+      "supermarket": "Asda",
+      "status": "delivered",
+      "tracking_number": "TRK-2026-104",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": "2026-03-07T10:30:00Z",
+      "received_confirmed": false,
+      "notes": "Deliver to side entrance",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "5dee0575-5cbe-424f-bfe6-0a744b98ff0f",
+    "fields": {
+      "donation": "6ac42521-238f-49cc-b1a9-56eb9224c392",
+      "supermarket": "Waitrose",
+      "status": "received",
+      "tracking_number": "TRK-2026-105",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": "2026-03-07T10:30:00Z",
+      "received_confirmed": true,
+      "notes": "Deliver to side entrance",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "04859f41-93d5-4eac-92ae-66081f17afd6",
+    "fields": {
+      "donation": "9f781366-b2ca-40b6-a049-945464d02c70",
+      "supermarket": "Asda",
+      "status": "received",
+      "tracking_number": "TRK-2026-106",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": "2026-03-07T10:30:00Z",
+      "received_confirmed": true,
+      "notes": "Leave at reception",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "9b883ce8-1875-47c9-a0fa-a448e04580bf",
+    "fields": {
+      "donation": "3b5daaeb-b9d8-4fc3-87f5-eb4cd76b8d2d",
+      "supermarket": "Tesco",
+      "status": "dispatched",
+      "tracking_number": "TRK-2026-107",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": null,
+      "received_confirmed": false,
+      "notes": "Call on arrival",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "63d8810f-07fb-46cd-94ba-1833bea80609",
+    "fields": {
+      "donation": "2f1a16f9-7fa5-4125-b4be-759cdce322bf",
+      "supermarket": "Waitrose",
+      "status": "pending",
+      "tracking_number": "TRK-2026-108",
+      "estimated_delivery": null,
+      "actual_delivery": null,
+      "received_confirmed": false,
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "d248c663-81b9-4e41-b690-a678b83c347b",
+    "fields": {
+      "donation": "cf961199-5ec1-448b-920f-207b737d05cd",
+      "supermarket": "Tesco",
+      "status": "delivered",
+      "tracking_number": "TRK-2026-109",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": "2026-03-07T10:30:00Z",
+      "received_confirmed": false,
+      "notes": "Deliver to side entrance",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "f6977785-6e98-4f77-8ace-277fe31c9be1",
+    "fields": {
+      "donation": "f09adedf-024d-4231-ad05-5857adec44aa",
+      "supermarket": "Waitrose",
+      "status": "pending",
+      "tracking_number": "TRK-2026-110",
+      "estimated_delivery": null,
+      "actual_delivery": null,
+      "received_confirmed": false,
+      "notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "donations.deliverytracking",
+    "pk": "a2238750-9e27-4d54-848c-3855b20971cb",
+    "fields": {
+      "donation": "82bda8c3-4ad3-4860-bb21-a2cd51bc472b",
+      "supermarket": "Tesco",
+      "status": "dispatched",
+      "tracking_number": "TRK-2026-111",
+      "estimated_delivery": "2026-03-07T12:00:00Z",
+      "actual_delivery": null,
+      "received_confirmed": false,
+      "notes": "Leave at reception",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "db13dd23-edc1-427c-9bd6-12818ff31be3",
+    "fields": {
+      "food_bank": "642991b1-c2eb-46bb-8240-d1ca802ba7e4",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": true,
+      "delivery_notes": "Leave at the loading bay",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "17f2a635-22b6-4e45-85a0-5e51f6b2ffe4",
+    "fields": {
+      "food_bank": "836aaf25-28ec-4578-85e2-85fd6eefbdd7",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": true,
+      "delivery_notes": "Contact us before delivery",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "cb6b848e-3e50-44d4-a04d-c69fb2a7c559",
+    "fields": {
+      "food_bank": "2daa743c-3676-4821-a790-e48bea1a68a9",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": false,
+      "delivery_notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "1dee5130-517d-4289-8e9c-2b6da0f79d12",
+    "fields": {
+      "food_bank": "0de83961-e82d-4f34-9b3c-9bb77577989e",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "Ring the bell at the side entrance",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "e6cdfb31-2207-4539-af89-9a6a7dcbaa09",
+    "fields": {
+      "food_bank": "6fa2245a-48da-438b-a886-739849a2247e",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "Please deliver between 9am-5pm",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "26ddfc18-6b8f-4531-8932-2f560fc3983f",
+    "fields": {
+      "food_bank": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "6177ca09-dfed-4cfc-ade8-c7ad1149c141",
+    "fields": {
+      "food_bank": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "1edb78d9-8a46-4c08-8af5-e3dfa1c61a43",
+    "fields": {
+      "food_bank": "ef6e15de-47dc-4ca7-bb09-507f555a99dc",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": true,
+      "delivery_notes": "Please deliver between 9am-5pm",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "cfbd87a0-084d-48d1-9021-75c3bc6bad39",
+    "fields": {
+      "food_bank": "749de34f-8a7f-4144-9065-d9aae572aa45",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "8a34deec-6ac0-4e7e-aa2b-89335de6f4ab",
+    "fields": {
+      "food_bank": "426de5cc-c03c-4891-9832-d47efbf22f39",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "Contact us before delivery",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "a96d5f07-c72f-4895-a846-a4ea2855a2df",
+    "fields": {
+      "food_bank": "a8a51433-cf01-4214-8f9d-797fd7f93758",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": false,
+      "delivery_notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "00b1fb0a-5cfc-4506-bdb9-9a17a14674c2",
+    "fields": {
+      "food_bank": "f9fb805b-1db2-4cc5-8bb9-4ea47f07e79f",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": false,
+      "delivery_notes": "Ring the bell at the side entrance",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "c7d3a533-9e99-4e4c-a1af-891f5ac468aa",
+    "fields": {
+      "food_bank": "a57525e2-cc9a-4bb6-beb6-9ddbdcdff20c",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": true,
+      "delivery_notes": "Please deliver between 9am-5pm",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "6b605279-246e-406c-a79e-75337d8cc666",
+    "fields": {
+      "food_bank": "ecb6f09b-0aa9-4b3c-9c3b-dd354097c660",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "dd0eb462-4b7d-4dad-a1a9-7f86ba8b4f0c",
+    "fields": {
+      "food_bank": "ab19ee0f-da42-4a77-a59d-d05c6501c0c6",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": false,
+      "delivery_notes": "Volunteers available Mon-Fri only",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "975029f4-d320-4069-9523-972d4e88ee5a",
+    "fields": {
+      "food_bank": "d11d778d-cbe9-486c-b4f3-f626638ff67a",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": true,
+      "delivery_notes": "Leave at the loading bay",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "8a49b506-3c44-4ede-a14c-4fe7985a99f4",
+    "fields": {
+      "food_bank": "76c3ba48-b1c3-4ed3-9087-e0b18ff5851a",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": true,
+      "delivery_notes": "Contact us before delivery",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "927cddde-69f7-4c04-ac4e-0e85c6b822b4",
+    "fields": {
+      "food_bank": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": false,
+      "delivery_notes": "Ring the bell at the side entrance",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "4e5eb041-b022-43fc-a6d5-12e53472e10e",
+    "fields": {
+      "food_bank": "040f3df4-db85-42bd-9f39-b4509dae96fc",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "Contact us before delivery",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "6661ad5b-c0c4-4c7d-b043-7779f6a7bfda",
+    "fields": {
+      "food_bank": "3409ad04-1a6d-455c-9eba-4fb95d4fc95f",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "Contact us before delivery",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "cb9e1fe9-c2d8-4d3a-b4c2-bb0e30afa560",
+    "fields": {
+      "food_bank": "24f7f870-a69d-4ba9-99ca-a1d4577c44c9",
+      "pepesto_enabled": true,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": true,
+      "delivery_notes": "Ring the bell at the side entrance",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "0cb02efa-3c72-43c7-864b-41ac01fb2d23",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": true,
+      "delivery_notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "8090cabd-0851-4536-ad8d-c3b93f2b1b51",
+    "fields": {
+      "food_bank": "b36e282e-5180-44fd-a6dd-71edd5aea892",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": true,
+      "allow_donor_collection": false,
+      "delivery_notes": "",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "0aac07b0-9028-4717-8a2a-24f00bae9aa4",
+    "fields": {
+      "food_bank": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": true,
+      "delivery_notes": "Please deliver between 9am-5pm",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksettings",
+    "pk": "076e9894-ee72-4527-8774-cd1b31fb3559",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "pepesto_enabled": false,
+      "accept_direct_delivery": false,
+      "allow_donor_collection": false,
+      "delivery_notes": "Contact us before delivery",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "7a9e839a-2ec8-4def-a43d-d5042d2f2c2f",
+    "fields": {
+      "food_bank": "ccf7ac6c-64ee-4c5c-93a3-b4e0b59ee2c8",
+      "supermarket": "tesco",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "11ecf087-27a3-4fbd-a71c-8c43867a102e",
+    "fields": {
+      "food_bank": "040f3df4-db85-42bd-9f39-b4509dae96fc",
+      "supermarket": "sainsburys",
+      "enabled": true,
+      "delivery_time_days": 5,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "872ba616-03d1-499d-b0cf-c446937ee4f0",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "supermarket": "asda",
+      "enabled": true,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "8ce56720-0a9e-4ac4-bbc8-b17b58ae091a",
+    "fields": {
+      "food_bank": "24f7f870-a69d-4ba9-99ca-a1d4577c44c9",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "c2bc7ff8-5d15-4827-906c-5ccd720cbe84",
+    "fields": {
+      "food_bank": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+      "supermarket": "tesco",
+      "enabled": false,
+      "delivery_time_days": 5,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "2d75dbb9-faca-4559-a81d-2780890ce167",
+    "fields": {
+      "food_bank": "6fa2245a-48da-438b-a886-739849a2247e",
+      "supermarket": "sainsburys",
+      "enabled": true,
+      "delivery_time_days": 5,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "1e3d2dff-2b4d-401d-b2c5-e64918456e59",
+    "fields": {
+      "food_bank": "ccf7ac6c-64ee-4c5c-93a3-b4e0b59ee2c8",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "360b2f98-00e6-458c-92a3-d96f107baaad",
+    "fields": {
+      "food_bank": "5eebf9c6-ac3e-4d91-97d5-065a29c5f419",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "2b771249-ecc9-44e2-a5ce-6e2e704f7f46",
+    "fields": {
+      "food_bank": "6f9f4750-e070-40ab-ba9f-d74d4605b7ff",
+      "supermarket": "asda",
+      "enabled": false,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "f5223754-4745-44cc-9adf-876acf0011a2",
+    "fields": {
+      "food_bank": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "56511843-a3d5-42ec-b359-31f657258d59",
+    "fields": {
+      "food_bank": "a8a51433-cf01-4214-8f9d-797fd7f93758",
+      "supermarket": "sainsburys",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "578fe64f-665a-44f0-9d8e-b7198b6588cc",
+    "fields": {
+      "food_bank": "e4520f9a-b06e-4b78-83e4-638ae0e1eaf6",
+      "supermarket": "sainsburys",
+      "enabled": true,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "573866dc-9e5b-40b8-9456-20271639c8a6",
+    "fields": {
+      "food_bank": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+      "supermarket": "asda",
+      "enabled": false,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "708cd5ea-68ef-4b1f-ba59-85eae7b1a1ec",
+    "fields": {
+      "food_bank": "ccf7ac6c-64ee-4c5c-93a3-b4e0b59ee2c8",
+      "supermarket": "asda",
+      "enabled": false,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "1f5222d0-da09-429e-bc67-7f1e234ea394",
+    "fields": {
+      "food_bank": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "5bd1317f-21ea-4b61-9012-dc6d322a0310",
+    "fields": {
+      "food_bank": "43aa8aff-fc20-4a05-b161-b3a035c346a6",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "fd126873-2650-4906-b7ac-a7232c2917ad",
+    "fields": {
+      "food_bank": "df462ea3-2970-4440-a07f-49e18fdd6779",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "432dc7dc-b3c7-4ca4-94fb-1cda56b01752",
+    "fields": {
+      "food_bank": "e1f914b1-56f5-4c0a-bd57-317be3fbd355",
+      "supermarket": "sainsburys",
+      "enabled": false,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "b3f942fb-7724-4aae-a0e0-9c336f2cdbca",
+    "fields": {
+      "food_bank": "ef6e15de-47dc-4ca7-bb09-507f555a99dc",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "e17a59f2-9cbf-4b5d-9aa8-8b05e9d7841d",
+    "fields": {
+      "food_bank": "f9fb805b-1db2-4cc5-8bb9-4ea47f07e79f",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "df3dffd4-b60b-444f-9ed3-abbfd7a691dd",
+    "fields": {
+      "food_bank": "6f9f4750-e070-40ab-ba9f-d74d4605b7ff",
+      "supermarket": "tesco",
+      "enabled": true,
+      "delivery_time_days": 5,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "27e597b6-5714-4a89-86b4-60f511633b0e",
+    "fields": {
+      "food_bank": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+      "supermarket": "asda",
+      "enabled": true,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "bd687c4a-3b81-490d-bc92-387793ceb811",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "a24d3891-14ca-4ae2-8eb8-be8dd2a98cda",
+    "fields": {
+      "food_bank": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+      "supermarket": "sainsburys",
+      "enabled": true,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "842a0442-807e-4a99-9045-1b339e9d51df",
+    "fields": {
+      "food_bank": "d05ef4bd-c6ee-4f48-969c-077a2722dbc3",
+      "supermarket": "asda",
+      "enabled": false,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "a688fe42-d739-46ea-ba82-acdd6fd8f44d",
+    "fields": {
+      "food_bank": "0de83961-e82d-4f34-9b3c-9bb77577989e",
+      "supermarket": "asda",
+      "enabled": false,
+      "delivery_time_days": 5,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "66c88392-9c61-4b55-bda1-04d962d33fa4",
+    "fields": {
+      "food_bank": "749de34f-8a7f-4144-9065-d9aae572aa45",
+      "supermarket": "asda",
+      "enabled": false,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "45f4b64b-84c4-4b1c-b9f8-3ea790aee307",
+    "fields": {
+      "food_bank": "43aa8aff-fc20-4a05-b161-b3a035c346a6",
+      "supermarket": "tesco",
+      "enabled": false,
+      "delivery_time_days": 1,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "1c27601e-9cdf-4ac2-ad5e-d4c1c5211bd4",
+    "fields": {
+      "food_bank": "6fa2245a-48da-438b-a886-739849a2247e",
+      "supermarket": "asda",
+      "enabled": true,
+      "delivery_time_days": 1,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "489f1d27-ee58-47ea-a50c-ff982f0e6df2",
+    "fields": {
+      "food_bank": "d11d778d-cbe9-486c-b4f3-f626638ff67a",
+      "supermarket": "tesco",
+      "enabled": false,
+      "delivery_time_days": 1,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "6f4354dd-b6a7-4b10-aed2-2059da5b4417",
+    "fields": {
+      "food_bank": "cc32c145-9aeb-4417-95f7-7180b95fc41a",
+      "supermarket": "sainsburys",
+      "enabled": false,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "daf2086c-fd02-42ad-a199-c39434d4b5c7",
+    "fields": {
+      "food_bank": "040f3df4-db85-42bd-9f39-b4509dae96fc",
+      "supermarket": "tesco",
+      "enabled": true,
+      "delivery_time_days": 1,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "c19024ce-0767-4713-96f3-e38f08a1b863",
+    "fields": {
+      "food_bank": "ecb6f09b-0aa9-4b3c-9c3b-dd354097c660",
+      "supermarket": "asda",
+      "enabled": true,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "f22e9ef8-15ec-4dc2-8890-355e8b1f6038",
+    "fields": {
+      "food_bank": "642991b1-c2eb-46bb-8240-d1ca802ba7e4",
+      "supermarket": "sainsburys",
+      "enabled": false,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "0a46a7a5-e340-435d-a759-285adbf0485c",
+    "fields": {
+      "food_bank": "836aaf25-28ec-4578-85e2-85fd6eefbdd7",
+      "supermarket": "sainsburys",
+      "enabled": true,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "bcb138e4-5d4c-4390-acc3-e577c92051ee",
+    "fields": {
+      "food_bank": "0de83961-e82d-4f34-9b3c-9bb77577989e",
+      "supermarket": "waitrose",
+      "enabled": false,
+      "delivery_time_days": 2,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "cfd6d2ff-dd2c-4702-924f-f46fb9128c1e",
+    "fields": {
+      "food_bank": "6f9f4750-e070-40ab-ba9f-d74d4605b7ff",
+      "supermarket": "sainsburys",
+      "enabled": true,
+      "delivery_time_days": 4,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "afc20272-7893-4ef8-968e-de2c437428e4",
+    "fields": {
+      "food_bank": "d05ef4bd-c6ee-4f48-969c-077a2722dbc3",
+      "supermarket": "waitrose",
+      "enabled": true,
+      "delivery_time_days": 1,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "1ee27b48-ab8d-4c5f-b6b0-c8d62fc66229",
+    "fields": {
+      "food_bank": "a8a51433-cf01-4214-8f9d-797fd7f93758",
+      "supermarket": "asda",
+      "enabled": false,
+      "delivery_time_days": 5,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.foodbanksupermarketpreference",
+    "pk": "f856437f-e6f9-4cdf-bfc8-70c6e56eb26b",
+    "fields": {
+      "food_bank": "846ea6b7-6484-4942-ae39-a2d3985f8948",
+      "supermarket": "tesco",
+      "enabled": true,
+      "delivery_time_days": 3,
+      "created_at": "2026-03-05T12:00:00Z"
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "c0b94b12-4e2c-498b-b114-91b67d3f0c08",
+    "fields": {
+      "food_bank": "a57525e2-cc9a-4bb6-beb6-9ddbdcdff20c",
+      "source": "qr_sticker",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "31644d54-3884-4333-9f95-e833097727c6",
+    "fields": {
+      "food_bank": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+      "source": "qr_social",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": true,
+      "donation": "f09adedf-024d-4231-ad05-5857adec44aa"
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "272ddb17-0bce-41bc-89af-d75fd5b1d376",
+    "fields": {
+      "food_bank": "43073a6f-397c-4c4f-b103-1dd42d0dd294",
+      "source": "qr_social",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": true,
+      "donation": "408ebf76-6456-4027-a84e-c16d50d94b27"
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "2ad2fb17-b48d-4abf-a6e6-81bda6909621",
+    "fields": {
+      "food_bank": "aa40e2f3-4a6a-4251-8d6e-6798dea11929",
+      "source": "qr_sticker",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": true,
+      "donation": "2f1a16f9-7fa5-4125-b4be-759cdce322bf"
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "254c6c3d-ab04-489c-af87-a27ccb25d6dd",
+    "fields": {
+      "food_bank": "cc32c145-9aeb-4417-95f7-7180b95fc41a",
+      "source": "qr_poster",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": true,
+      "donation": "c634bcb8-0280-400c-8119-3e08380ad59e"
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "55bdc238-3793-47d2-9a61-441b40396b23",
+    "fields": {
+      "food_bank": "cb0bd2aa-8791-4a01-b9b6-33da1c130189",
+      "source": "qr_sticker",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "d10ef521-1034-43c8-9d22-532fa1e9c22e",
+    "fields": {
+      "food_bank": "d63e1b44-8e9a-4671-a7bb-0d46c0be8abf",
+      "source": "qr_poster",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "f82f5ae3-50a2-4730-82fd-5e707aafb4dd",
+    "fields": {
+      "food_bank": "ecb6f09b-0aa9-4b3c-9c3b-dd354097c660",
+      "source": "qr_sticker",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": true,
+      "donation": "d779054e-2bc1-460d-a380-1ec8287bd257"
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "3f566ab9-4182-45e9-a768-a8563b52625d",
+    "fields": {
+      "food_bank": "6a1a5084-16f3-438a-a3a8-82138d44e269",
+      "source": "qr_poster",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "caa9afb2-1044-4b00-8174-15f79c2cd78e",
+    "fields": {
+      "food_bank": "e1f914b1-56f5-4c0a-bd57-317be3fbd355",
+      "source": "qr_poster",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "4be13b6e-f6fb-42da-b070-65cf5dec6049",
+    "fields": {
+      "food_bank": "43aa8aff-fc20-4a05-b161-b3a035c346a6",
+      "source": "qr_sticker",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "c417266d-eddf-4479-baed-61d43959dd80",
+    "fields": {
+      "food_bank": "76c3ba48-b1c3-4ed3-9087-e0b18ff5851a",
+      "source": "qr_social",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "9285a26b-51bb-4a10-8c28-2051c8db0c25",
+    "fields": {
+      "food_bank": "75290081-53bf-42a8-bffb-e017f8a04275",
+      "source": "qr_poster",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "9c909265-217c-4442-aba3-9960fd8b392c",
+    "fields": {
+      "food_bank": "d05ef4bd-c6ee-4f48-969c-077a2722dbc3",
+      "source": "qr_sticker",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": true,
+      "donation": "6ac42521-238f-49cc-b1a9-56eb9224c392"
+    }
+  },
+  {
+    "model": "foodbanks.qrscan",
+    "pk": "69fdf1bd-c0dd-492b-b0f0-7bc880000c44",
+    "fields": {
+      "food_bank": "ecb6f09b-0aa9-4b3c-9c3b-dd354097c660",
+      "source": "qr_social",
+      "scanned_at": "2026-03-05T12:00:00Z",
+      "converted_to_donation": false,
+      "donation": null
+    }
+  }
+]

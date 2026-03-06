@@ -23,7 +23,13 @@ INSTALLED_APPS = [
     "rest_framework",
     "drf_spectacular",
     "apps.health",
+    "apps.core",
+    "apps.accounts",
+    "apps.foodbanks",
+    "apps.donations",
 ]
+
+AUTH_USER_MODEL = "accounts.FoodBankAdmin"
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
