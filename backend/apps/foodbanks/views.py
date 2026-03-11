@@ -2,6 +2,8 @@ from rest_framework.generics import ListAPIView
 from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from django.http import Http404
+from django.utils import timezone
 
 from .models import FoodBank, WishListItem
 from .serializers import (
@@ -68,18 +70,12 @@ class MealKitListView(ListAPIView):
     permission_classes = []
 
     def get_queryset(self):
-        from django.utils import timezone
-
+        try:
+            food_bank = FoodBank.objects.get(pk=self.kwargs["food_bank_id"])
+        except FoodBank.DoesNotExist:
+            raise Http404
         return (
-            FoodBank.objects.get(pk=self.kwargs["food_bank_id"])
-            .generated_recipes.filter(expires_at__gt=timezone.now())
+            food_bank.generated_recipes.filter(expires_at__gt=timezone.now())
             .order_by("recipe_name")
         )
-
-    def get(self, request: Request, *args, **kwargs) -> Response:
-        try:
-            FoodBank.objects.get(pk=kwargs["food_bank_id"])
-        except FoodBank.DoesNotExist:
-            return Response({"detail": "Food bank not found."}, status=404)
-        return super().get(request, *args, **kwargs)
 
