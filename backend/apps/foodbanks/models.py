@@ -74,6 +74,7 @@ class GeneratedRecipe(models.Model):
     instructions = models.TextField()
     emoji = models.TextField()
     estimated_cost = models.DecimalField(max_digits=10, decimal_places=2)
+    dietary_tags = models.JSONField(default=list)
     generated_at = models.DateTimeField(auto_now_add=True)
     expires_at = models.DateTimeField()
 
