@@ -60,6 +60,14 @@ class WishListItem(TimestampMixin):
 
 
 class GeneratedRecipe(models.Model):
+    class DietaryRestriction(models.TextChoices):
+        VEGETARIAN = "vegetarian", "Vegetarian"
+        VEGAN = "vegan", "Vegan"
+        GLUTEN_FREE = "gluten_free", "Gluten Free"
+        DAIRY_FREE = "dairy_free", "Dairy Free"
+        HALAL = "halal", "Halal"
+        NUT_FREE = "nut_free", "Nut Free"
+
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     food_bank = models.ForeignKey(
         FoodBank,
@@ -74,6 +82,7 @@ class GeneratedRecipe(models.Model):
     instructions = models.TextField()
     emoji = models.TextField()
     estimated_cost = models.DecimalField(max_digits=10, decimal_places=2)
+    dietary_restrictions = models.JSONField(default=list)
     generated_at = models.DateTimeField(auto_now_add=True)
     expires_at = models.DateTimeField()
 
